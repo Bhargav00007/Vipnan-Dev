@@ -11,6 +11,12 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'custom-green': '#57E8BA',  
+        // #3a4543 ---colour picker
+      },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+        dmSans: ['DM Sans', 'sans-serif'],
       },
     },
   },
