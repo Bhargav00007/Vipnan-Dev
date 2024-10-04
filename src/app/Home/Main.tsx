@@ -7,7 +7,7 @@ export const Main = () => {
     <>
 <div className='bg-custom-gradient'>
 <div className="flex justify-center items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse border-white-2 rounded-3xl">
-  <div className="flex items-center justify-center text-white bg-gradient-to-b from-black to-custom-green focus:ring-4 focus:outline-none focus:ring-white-300 font-bold text-sm px-7 py-2 mt-20 text-center dark:focus:ring-black border border-custom-green rounded-3xl text-regular-green ">
+  <div className="flex items-center justify-center text-regular-green bg-gradient-to-b from-black to-custom-green focus:ring-4 focus:outline-none focus:ring-white-300 font-bold text-sm px-7 py-2 mt-20 text-center dark:focus:ring-black border border-custom-green rounded-3xl ">
     <h2>Where Strategy meets action.</h2>
   </div>
 </div>
@@ -22,8 +22,11 @@ export const Main = () => {
     </p>
 </div>
 <div className='flex items-center justify-center text-white px-4 py-4'>
-    <button type="button" className="text-black hover:text-white bg-black hover:bg-custom-green transition-colors duration-300 focus:ring-4 focus:outline-none focus:ring-white-300 text-base px-7 py-3 text-center dark:bg-regular-green dark:hover:bg-black dark:focus:ring-black border border-custom-green rounded-3xl shadow-xl font-bold">Let's Get Creative<FaArrowCircleRight className="inline ml-2 mb-1" /></button>
+  <button type="button" className="text-black hover:text-white bg-black hover:bg-custom-green transition-colors duration-300 focus:ring-4 focus:outline-none focus:ring-white-300 text-base px-7 py-3 text-center dark:bg-regular-green dark:hover:bg-black dark:focus:ring-black border border-custom-green rounded-3xl shadow-custom font-bold">
+    Let's Get Creative<FaArrowCircleRight className="inline ml-2 mb-1" />
+  </button>
 </div>
+
 </div>
     </>
   )

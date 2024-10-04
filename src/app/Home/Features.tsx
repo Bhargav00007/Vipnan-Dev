@@ -1,56 +1,111 @@
-import React from 'react'
+import React from 'react';
+import { FaArrowCircleRight } from "react-icons/fa";
 
 export const Features = () => {
   return (
     <>
-    <div className='flex items-center justify-center text-white '>
-        <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-5xl text-center mt-36 leading-tight font-poppins">
-            We Make Things Look Good
+      <div className='flex items-center justify-center text-white'>
+        <h1 className="text-2xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-5xl text-center mt-36 leading-tight font-poppins font-bold">
+          We Make Things Look Good
         </h1>
-    </div>
-
-    <div className="flex flex-wrap justify-between rounded-3xl">
-  {/* Section 1 */}
-  <div className="flex w-full md:w-1/2 p-4">
-    <div className="flex w-full bg-blue-700 text-white p-0 rounded-3xl overflow-hidden">
-      {/* Text Container (55% width) */}
-      <div className="w-[55%] p-6">
-        <h2 className="text-xl font-bold mb-3">Text for Div 1</h2>
-        <p>This is some descriptive text that occupies 55% of the width in this div.</p>
       </div>
-      {/* Image Container (45% width) */}
-      <div className="w-[45%]">
-        <img 
-          src="https://via.placeholder.com/150" 
-          alt="Placeholder" 
-          className="w-full h-full object-cover rounded-tr-3xl rounded-br-3xl" 
-        />
-      </div>
-    </div>
-  </div>
 
-  {/* Section 2 */}
-  <div className="flex w-full md:w-1/2 p-4">
-    <div className="flex w-full bg-blue-700 text-white p-0 rounded-3xl overflow-hidden">
-      {/* Text Container (55% width) */}
-      <div className="w-[55%] p-6">
-        <h2 className="text-xl font-bold mb-3">Text for Div 2</h2>
-        <p>This is some descriptive text that occupies 55% of the width in this div.</p>
-      </div>
-      {/* Image Container (45% width) */}
-      <div className="w-[45%]">
-        <img 
-          src="https://via.placeholder.com/150" 
-          alt="Placeholder" 
-          className="w-full h-full object-cover rounded-tr-3xl rounded-br-3xl" 
-        />
-      </div>
-    </div>
-  </div>
-</div>
+      <div className="flex flex-wrap justify-between rounded-3xl mt-10">
+        {/* Section 1 */}
+        <div className="flex w-full md:w-1/2 p-4">
+          <div className="flex w-full bg-black border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden ml-auto xl:ml-36" style={{ width: '586px', height: '325px' }}>
+            <div className="xl:w-[55%] w-full p-6">
+              <h2 className="text-2xl font-bold mb-3">About Vipnan Agency</h2>
+              <p className='text-base'>
+                At Vipnan, creativity and professionalism merge to bring your ideas to life. Choose from flexible plans that fit your needs monthly, quarterly, or yearly while our expert team takes your brand to the next level.
+              </p>
+              <div className='text-white py-4'>
+                <button type="button" className="text-black hover:text-white bg-black hover:bg-custom-green transition-colors duration-300 focus:ring-4 focus:outline-none focus:ring-white-300 text-base px-7 py-3 text-center dark:bg-regular-green dark:hover:bg-black dark:focus:ring-black border border-custom-green rounded-3xl shadow-xl font-bold">
+                  Learn More<FaArrowCircleRight className="inline ml-2 mb-1" />
+                </button>
+              </div>
+            </div>
+            <div className="w-[45%] hidden md:block">
+              <img 
+                src="https://via.placeholder.com/150" 
+                alt="Placeholder" 
+                className="w-full h-full object-cover rounded-tr-3xl rounded-br-3xl" 
+              />
+            </div>
+          </div>
+        </div>
 
+        {/* Section 2 */}
+        <div className="flex w-full md:w-1/2 p-4">
+          <div className="flex w-full bg-black border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden" style={{ width: '586px', height: '325px' }}>
+            <div className="xl:w-[55%] w-full p-6">
+              <h2 className="text-2xl font-bold mb-3">Is Your Brand Unique?</h2>
+              <p className='text-base'>
+                In today’s fast-paced world, your brand needs to stand out. At Vipnan, we deliver innovative solutions that ensure your brand remains bold, cohesive, and unforgettable.
+              </p>
+              <div className='text-white py-4'>
+                <button type="button" className="text-black hover:text-white bg-black hover:bg-custom-green transition-colors duration-300 focus:ring-4 focus:outline-none focus:ring-white-300 text-base px-7 py-3 text-center dark:bg-regular-green dark:hover:bg-black dark:focus:ring-black border border-custom-green rounded-3xl shadow-xl font-bold">
+                  Learn More<FaArrowCircleRight className="inline ml-2 mb-1" />
+                </button>
+              </div>
+            </div>
+            <div className="w-[45%] hidden md:block">
+              <img 
+                src="https://via.placeholder.com/150" 
+                alt="Placeholder" 
+                className="w-full h-full object-cover rounded-tr-3xl rounded-br-3xl" 
+              />
+            </div>
+          </div>
+        </div>
+      </div>
 
+      {/* Section 3 */}
+      <div className="flex w-full p-4">
+        <div className="flex w-full bg-black border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden ml-auto xl:ml-36" style={{ width: '1196.25px', height: '325px' }}>
+          <div className=" w-full p-6 flex flex-col justify-between">
+            <div className="flex items-center justify-between">
+              <div className="xl:w-[80%]"> 
+                <h2 className="text-2xl font-bold mb-3">Your Vision, Our Commitment</h2>
+                <p className='text-base'>
+                  With a team of seasoned professionals, Vipnan transforms your ideas into powerful realities. From personal branding to 3D artistry, we are here to ensure every detail aligns with your success.
+                </p>
+                <div className='text-white py-4'>
+                  <button type="button" className="text-black hover:text-white bg-black hover:bg-custom-green transition-colors duration-300 focus:ring-4 focus:outline-none focus:ring-white-300 text-base px-7 py-3 text-center dark:bg-regular-green dark:hover:bg-black dark:focus:ring-black border border-custom-green rounded-3xl shadow-xl font-bold">
+                    Learn More<FaArrowCircleRight className="inline ml-2 mb-1" />
+                  </button>
+                </div>
+              </div>
+
+              {/* New Content Beside Text */}
+              <div className=" hidden md:flex flex-col justify-center w-[37%]"> 
+                <div className="flex items-baseline py-5">
+                  <p className='text-3xl font-bold'>900+</p>
+                  <p className="ml-2">Successful Projects</p>
+                </div>
+                <hr className="border-custom-green my-1" />
+                <div className="flex items-baseline py-5">
+                  <p className='text-3xl font-bold'>600+</p>
+                  <p className="ml-2">Years In Business</p>
+                </div>
+                <hr className="border-custom-green my-1" />
+                <div className="flex items-baseline py-5">
+                  <p className='text-3xl font-bold'>300+</p>
+                  <p className="ml-2">Happy Clients</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div className="w-[45%] ml-36 hidden md:flex">
+            <img 
+              src="https://via.placeholder.com/75" 
+              alt="Placeholder" 
+              className="w-full h-full object-cover rounded-tr-3xl rounded-br-3xl" 
+            />
+          </div>
+        </div>
+      </div>
     </>
-
-  )
-}
+  );
+};

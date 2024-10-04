@@ -25,6 +25,9 @@ const config: Config = {
       backgroundImage: {
         'custom-gradient': 'radial-gradient(ellipse at center 45%, rgba(87, 232, 186, 0.1) 0%, rgba(7, 11, 10, 1) 70%)',
       },
+      boxShadow: {
+        'custom': '0 4px 4px rgba(87, 232, 186, 0.3)', // Example: green shadow
+      },
     },
   },
   plugins: [],
