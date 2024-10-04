@@ -11,15 +11,23 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        'custom-green': '#57E8BA',  
-        // #3a4543 ---colour picker
+        'custom-green': 'rgba(87, 232, 186, 0.25)', // Custom green color
+        'regular-green': '#57E8BA',
+        'green-glow': '0 4px 6px rgba(87, 232, 186, 0.9)', //green shadow 
+        black: {
+          DEFAULT: "#070B0A", // Black color
+        },
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
         dmSans: ['DM Sans', 'sans-serif'],
       },
+      backgroundImage: {
+        'custom-gradient': 'radial-gradient(ellipse at center 45%, rgba(87, 232, 186, 0.1) 0%, rgba(7, 11, 10, 1) 70%)',
+      },
     },
   },
   plugins: [],
 };
+
 export default config;

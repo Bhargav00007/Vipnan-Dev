@@ -9,9 +9,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="container">
+    <nav className="container   ">
       <div
-        className={`max-w-screen-xl flex flex-wrap items-center justify-between mx-2 sm:mx-5 md:mx-5 lg:mx-auto p-4 sm:p-6 lg:p-6 mt-7 border border-custom-green ${
+        className={`max-w-screen-xl flex flex-wrap items-center justify-between mx-2 sm:mx-5 md:mx-5 lg:mx-auto p-4 sm:p-6 lg:p-6 mt-7 border border-custom-green   ${
           isMenuOpen ? "rounded-3xl" : "rounded-full"
         } bg-black`}
       >
@@ -22,10 +22,10 @@ const Navbar = () => {
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse border-white-2 rounded-3xl">
           <button
             type="button"
-            className="text-white hidden md:flex bg-black hover:bg-black focus:ring-4 focus:outline-none focus:ring-white-300 font-medium text-base px-7 py-3 text-center dark:bg-custom-green dark:hover:bg-black dark:focus:ring-black border border-custom-green rounded-3xl"
+            className="text-white hidden md:flex transition-colors duration-300 bg-black hover:bg-black focus:ring-4 focus:outline-none focus:ring-white-300 font-medium text-base px-7 py-3 text-center dark:bg-custom-green dark:hover:bg-black dark:focus:ring-black border border-custom-green rounded-3xl"
           >
             Contact Us
-            <FaArrowCircleRight className="inline ml-2 mb-1" />
+            <FaArrowCircleRight className="inline ml-2  mt-1" />
           </button>
 
           <button
@@ -63,7 +63,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 md:p-0 text-white bg-custom-green rounded md:bg-transparent md:text-blue-700 md:dark:text-custom-green"
+                className="block py-2 px-3 md:p-0 text-white bg-regular-green rounded md:bg-transparent md:text-blue-700 md:dark:text-regular-green"
                 aria-current="page"
               >
                 Home
@@ -72,7 +72,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-custom-green dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                className="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-regular-green dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
                 Services
               </a>
@@ -80,7 +80,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-custom-green dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-regular-green dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Clients
               </a>
@@ -88,7 +88,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-custom-green dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                className="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-regular-green dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
                 About
               </a>
@@ -96,7 +96,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block md:hidden py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-custom-green dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                className="block md:hidden py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-regular-green dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
                 Contact us
               </a>
