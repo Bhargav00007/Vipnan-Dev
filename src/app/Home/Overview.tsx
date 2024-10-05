@@ -1,0 +1,122 @@
+import React from 'react';
+import { TbCircleNumber1 } from "react-icons/tb";
+import { TbCircleNumber2 } from "react-icons/tb";
+import { TbCircleNumber3 } from "react-icons/tb";
+import { TbCircleNumber4 } from "react-icons/tb";
+import { TbCircleNumber5 } from "react-icons/tb";
+import { TbCircleNumber6 } from "react-icons/tb";
+import { TbCircleNumber7 } from "react-icons/tb";
+import { TbCircleNumber8 } from "react-icons/tb";
+
+
+export const Overview = () => {
+  return (
+    <>
+      <div className='flex items-center justify-center text-white'>
+        <h1 className="text-2xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-5xl text-center mt-36 leading-tight font-poppins font-bold">
+          Why Vipnan is Your Game-Changer
+        </h1>
+      </div>
+
+      <div className='flex flex-col md:flex-row w-full justify-between mt-10'> 
+        {/* One */}
+        <div className="flex w-full sm:w-1/2 lg:w-1/4 p-2 md:p-4">
+          <div className="flex w-full bg-black border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden" style={{ height: '271px' }}>
+            <div className="w-full p-6">
+            <TbCircleNumber1 className='my-5' size={22} />
+              <h2 className="text-xl font-bold mb-3">Expertise</h2>
+              <p className='text-sm'>
+              We bring together creativity and professionalism to ensure your project exceeds expectations. With our team of experts, your ideas are in safe hands.              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex w-full sm:w-1/2 lg:w-1/4 p-2 md:p-4">
+          <div className="flex w-full bg-black border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden" style={{ height: '271px' }}>
+            <div className="w-full p-6">
+            <TbCircleNumber2 className='my-5' size={22} />
+              <h2 className="text-xl font-bold mb-3">Time Savings</h2>
+              <p className='text-sm'>
+              We handle the heavy lifting, so you can focus on what matters. Our experienced team delivers top-tier results efficiently, saving you valuable time.              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex w-full sm:w-1/2 lg:w-1/4 p-2 md:p-4"> 
+          <div className="flex w-full bg-black border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden" style={{ height: '271px' }}>
+            <div className="w-full p-6">
+            <TbCircleNumber3  className='my-5' size={22}/>
+              <h2 className="text-xl font-bold mb-3">Cost Saving</h2>
+              <p className='text-sm'>
+              Get the best value for your investment. We offer flexible, cost effective solutions that maximize your budget while delivering high impact creative work.              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex w-full sm:w-1/2 lg:w-1/4 p-2 md:p-4">
+          <div className="flex w-full bg-black border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden" style={{ height: '271px' }}>
+            <div className="w-full p-6">
+            <TbCircleNumber4 className='my-5' size={22} />
+              <h2 className="text-xl font-bold mb-3">Scalability</h2>
+              <p className='text-sm'>
+              As your brand grows, Vipnan is there to support you. Our solutions scale with your business, ensuring your brand presence evolves without limits.              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Second Four Sections */}
+      <div className='flex flex-col md:flex-row w-full justify-between '> 
+        {/* First Section */}
+        <div className="flex w-full md:w-1/2 lg:w-1/4 p-2 md:p-4">
+          <div className="flex w-full bg-black border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden" style={{ height: '271px' }}>
+            <div className="w-full p-6">
+            <TbCircleNumber5 className='my-5' size={22} />
+              <h2 className="text-xl font-bold mb-3">Branding & Identity</h2>
+              <p className='lg:text-sm '>
+              We craft cohesive, striking brand identities that reflect your values and resonate across all platforms, ensuring your brand stands out in a crowded market.              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Second Section */}
+        <div className="flex w-full md:w-1/2 lg:w-1/4 p-2 md:p-4">
+          <div className="flex w-full bg-black border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden" style={{ height: '271px' }}>
+            <div className="w-full p-6">
+            <TbCircleNumber6 className='my-5' size={22} />
+
+              <h2 className="text-xl font-bold mb-3">Customer Service</h2>
+              <p className='text-sm'>
+              Your goals are our priority. We are more than just a creative partner, we’re dedicated to understanding and supporting your vision every step of the way.              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Yow S=More Section 1 */}
+        <div className="flex w-full md:w-1/2 lg:w-1/4 p-2 md:p-4"> 
+          <div className="flex w-full bg-black border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden" style={{ height: '271px' }}>
+            <div className="w-full p-6">
+            <TbCircleNumber7 className='my-5' size={22}  />
+
+              <h2 className="text-xl font-bold mb-3">Access To Resources</h2>
+              <p className='text-sm'>
+              With Vipnan, you get access to cutting-edge technology and creative expertise, ensuring your brand reaches its full potential.              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Yow S=More Section 2 */}
+        <div className="flex w-full md:w-1/2 lg:w-1/4 p-2 md:p-4">
+          <div className="flex w-full bg-black border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden" style={{ height: '271px' }}>
+            <div className="w-full p-6">
+            <TbCircleNumber8 className='my-5' size={22}  />
+              <h2 className="text-xl font-bold mb-3">Ongoing Support</h2>
+              <p className='text-sm'>
+              Our partnership doesn’t end when the project is done. We continue to provide ongoing support, ensuring your brand thrives in the long term.              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};

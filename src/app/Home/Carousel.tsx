@@ -38,10 +38,10 @@ const Carousel = () => {
           </div>
         ))}
       </div>
-      <button onClick={prevSlide} className="hidden md:flex absolute top-1/2 ml-20 transform -translate-y-1/2 bg-black rounded-full p-5 shadow">
+      <button onClick={prevSlide} className="hidden md:flex absolute top-1/2 ml-20 transform -translate-y-1/2 bg-transparent border-2 border-blue-300 rounded-full p-5 shadow">
       <IoIosArrowBack />
       </button>
-      <button onClick={nextSlide} className="hidden md:flex absolute top-1/2 right-20 transform -translate-y-1/2 bg-black rounded-full p-5 shadow">
+      <button onClick={nextSlide} className="hidden md:flex absolute top-1/2 right-20 transform -translate-y-1/2 bg-transparent border-2 border-blue-300 rounded-full p-5 shadow">
       <IoIosArrowForward />
       </button>
     </div>

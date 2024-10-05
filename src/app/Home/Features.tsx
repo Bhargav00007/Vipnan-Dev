@@ -25,7 +25,7 @@ export const Features = () => {
                 </button>
               </div>
             </div>
-            <div className="w-[45%] hidden md:block">
+            <div className="w-[45%] hidden lg:block">
               <img 
                 src="https://via.placeholder.com/150" 
                 alt="Placeholder" 
@@ -41,7 +41,7 @@ export const Features = () => {
             <div className="xl:w-[55%] w-full p-6">
               <h2 className="text-2xl font-bold mb-3">Is Your Brand Unique?</h2>
               <p className='text-base'>
-                In today’s fast-paced world, your brand needs to stand out. At Vipnan, we deliver innovative solutions that ensure your brand remains bold, cohesive, and unforgettable.
+                In today fast-paced world, your brand needs to stand out. At Vipnan, we deliver innovative solutions that ensure your brand remains bold, cohesive, and unforgettable.
               </p>
               <div className='text-white py-4'>
                 <button type="button" className="text-black hover:text-white bg-black hover:bg-custom-green transition-colors duration-300 focus:ring-4 focus:outline-none focus:ring-white-300 text-base px-7 py-3 text-center dark:bg-regular-green dark:hover:bg-black dark:focus:ring-black border border-custom-green rounded-3xl shadow-xl font-bold">
@@ -49,7 +49,7 @@ export const Features = () => {
                 </button>
               </div>
             </div>
-            <div className="w-[45%] hidden md:block">
+            <div className="w-[45%] hidden lg:block">
               <img 
                 src="https://via.placeholder.com/150" 
                 alt="Placeholder" 
@@ -63,9 +63,9 @@ export const Features = () => {
       {/* Section 3 */}
       <div className="flex w-full p-4">
         <div className="flex w-full bg-black border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden ml-auto xl:ml-36" style={{ width: '1196.25px', height: '325px' }}>
-          <div className=" w-full p-6 flex flex-col justify-between">
+          <div className="w-full p-6 flex flex-col justify-between">
             <div className="flex items-center justify-between">
-              <div className="xl:w-[80%]"> 
+              <div className="md:w-[60%]"> 
                 <h2 className="text-2xl font-bold mb-3">Your Vision, Our Commitment</h2>
                 <p className='text-base'>
                   With a team of seasoned professionals, Vipnan transforms your ideas into powerful realities. From personal branding to 3D artistry, we are here to ensure every detail aligns with your success.
@@ -77,8 +77,7 @@ export const Features = () => {
                 </div>
               </div>
 
-              {/* New Content Beside Text */}
-              <div className=" hidden md:flex flex-col justify-center w-[37%]"> 
+              <div className="hidden md:flex flex-col justify-center w-[37%]"> 
                 <div className="flex items-baseline py-5">
                   <p className='text-3xl font-bold'>900+</p>
                   <p className="ml-2">Successful Projects</p>
@@ -97,7 +96,8 @@ export const Features = () => {
             </div>
           </div>
           
-          <div className="w-[45%] ml-36 hidden md:flex">
+          {/* Update: Hide image for md and below */}
+          <div className="w-[45%] hidden lg:block">
             <img 
               src="https://via.placeholder.com/75" 
               alt="Placeholder" 
