@@ -18,7 +18,7 @@ export const Overview = () => {
         </h1>
       </div>
 
-      <div className="absolute w-[300px] h-[300px] sm:w-[300px] sm:h-[300px] md:w-[500px] md:h-[400px] lg:w-[700px] lg:h-[600px] left-[7rem] top-[210rem] lg:left-[50rem] lg:top-[2300px] md:left-[17rem] md:top-[2300px] bg-custom-green blur-2xl z-[-1] opacity-30 rounded-full overflow-hidden"></div>
+      <div className="absolute w-[300px] h-[300px] sm:w-[300px] sm:h-[300px] md:w-[500px] md:h-[400px] lg:w-[600px] lg:h-[400px] left-[7rem] top-[210rem] lg:left-[60rem] lg:top-[2300px] md:left-[17rem] md:top-[2300px] bg-custom-green blur-2xl z-[-1] opacity-30 rounded-full overflow-hidden"></div>
 
 
       <div className='flex flex-col md:flex-row w-full justify-between mt-10'> 
@@ -68,7 +68,7 @@ export const Overview = () => {
         </div>
       </div>
 
-      <div className="absolute w-[300px] h-[300px] sm:w-[300px] sm:h-[300px] md:w-[500px] md:h-[400px] lg:w-[700px] lg:h-[600px] left-[0rem] top-[250rem] lg:left-[-20rem] lg:top-[2700px] md:left-[-20rem] md:top-[2900px] bg-custom-green blur-2xl z-[-1] opacity-30 rounded-full overflow-hidden"></div>
+      <div className="absolute w-[300px] h-[300px] sm:w-[300px] sm:h-[300px] md:w-[500px] md:h-[400px] lg:w-[600px] lg:h-[400px] left-[0rem] top-[250rem] lg:left-[-20rem] lg:top-[2700px] md:left-[-20rem] md:top-[2900px] bg-custom-green blur-2xl z-[-1] opacity-30 rounded-full overflow-hidden"></div>
 
 
       {/* Second Four Sections */}

@@ -13,7 +13,7 @@ export const Main = () => {
 </div>
 <div className='flex items-center justify-center text-white px-4 py-4'>
     <h1 className="text-4xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-7xl text-center leading-tight font-poppins font-bold">
-        Your brand, our canvas.<br /> Let's make something extraordinary.
+        Your brand, our canvas.<br /> Let&apos;s make something extraordinary.
     </h1>
 </div>
 <div className='flex items-center justify-center text-white px-4 py-4'>

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import Script from 'next/script';
 import localFont from "next/font/local";
 import "./globals.css";
+import Script from "next/script"; 
 import Head from "next/head";
 
 const geistSans = localFont({
@@ -28,13 +28,20 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
+        {/* External CSS like Boxicons */}
+        <link
+          href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+          rel="stylesheet"
+        />
       </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-        <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js" ></script>
+        <Script
+          src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"
+          strategy="lazyOnload"
+        />
       </body>
     </html>
   );

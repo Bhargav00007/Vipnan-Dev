@@ -4,7 +4,7 @@ import { FaArrowCircleRight } from "react-icons/fa";
 export const Features = () => {
   return (
     <>
-<div className="absolute w-[300px] h-[300px] sm:w-[300px] sm:h-[300px] md:w-[500px] md:h-[400px] lg:w-[700px] lg:h-[600px] left-[5rem] top-[100rem] lg:left-[50rem] lg:top-[1000px] md:left-[15rem] md:top-[1000px] bg-custom-green blur-2xl z-[-1] opacity-30 rounded-full overflow-hidden"></div>
+<div className="absolute w-[300px] h-[300px] sm:w-[300px] sm:h-[300px] md:w-[500px] md:h-[400px] lg:w-[600px] lg:h-[400px] left-[5rem] top-[100rem] lg:left-[50rem] lg:top-[1000px] md:left-[15rem] md:top-[1000px] bg-custom-green blur-2xl z-[-1] opacity-30 rounded-full overflow-hidden"></div>
       <div className='flex items-center justify-center text-white'>
         <h1 className="text-2xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-5xl text-center mt-36 leading-tight font-poppins font-bold">
           We Make Things Look Good
@@ -61,7 +61,7 @@ export const Features = () => {
         </div>
       </div>
 
-      <div className="absolute w-[300px] h-[300px] sm:w-[300px] sm:h-[300px] md:w-[500px] md:h-[400px] lg:w-[700px] lg:h-[600px] left-[0rem] top-[130rem] lg:left-[0rem] lg:top-[1500px] md:left-[0rem] md:top-[1500px] bg-custom-green blur-2xl z-[-1] opacity-30 rounded-full overflow-hidden"></div>
+      <div className="absolute w-[300px] h-[300px] sm:w-[300px] sm:h-[300px] md:w-[500px] md:h-[400px] lg:w-[600px] lg:h-[400px] left-[0rem] top-[130rem] lg:left-[0rem] lg:top-[1500px] md:left-[0rem] md:top-[1500px] bg-custom-green blur-2xl z-[-1] opacity-30 rounded-full overflow-hidden"></div>
 
 
       {/* Section 3 */}
