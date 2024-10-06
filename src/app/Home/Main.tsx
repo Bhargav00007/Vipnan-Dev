@@ -23,7 +23,7 @@ export const Main = () => {
 </div>
 <div className='flex items-center justify-center text-white px-4 py-4'>
   <button type="button" className="text-black hover:text-white bg-black hover:bg-custom-green transition-colors duration-300  focus:outline-none text-base px-7 py-3 text-center dark:bg-regular-green dark:hover:bg-black dark:focus:ring-black border border-custom-green rounded-3xl shadow-custom font-bold">
-    Let's Get Creative<FaArrowCircleRight className="inline ml-2 mb-1" />
+    Let&apos;s Get Creative<FaArrowCircleRight className="inline ml-2 mb-1" />
   </button>
 </div>
 
