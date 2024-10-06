@@ -13,7 +13,7 @@ export const Services = () => {
 
       <div className="flex flex-wrap justify-center lg:justify-start lg:gap-4 mt-10">
       {/* First */}
-      <div className="flex items-center w-[337px] h-[54px] bg-black xl:ml-36 ml-10  rounded-lg mt-5">
+      <div className="flex items-center w-[337px] h-[54px] bg-transparent xl:ml-36 ml-10  rounded-lg mt-5">
         <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M18.75 33.0413C27.0343 33.0413 33.75 26.3255 33.75 18.0413C33.75 9.75699 27.0343 3.04126 18.75 3.04126C10.4657 3.04126 3.75 9.75699 3.75 18.0413C3.75 26.3255 10.4657 33.0413 18.75 33.0413Z" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
           <path d="M3.75 18.0413H33.75" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
@@ -25,7 +25,7 @@ export const Services = () => {
       </div>
 
       {/* Second */}
-        <div className="flex items-center w-[337px] h-[54px] bg-black lg:ml-36 ml-10 rounded-lg mt-5">
+        <div className="flex items-center w-[337px] h-[54px] bg-transparent lg:ml-36 ml-10 rounded-lg mt-5">
         <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
         <mask id="mask0_61_1026" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="37" height="37">
         <rect x="0.25" y="0.0410156" width="36" height="36" fill="url(#pattern0_61_1026)"/>
@@ -45,7 +45,7 @@ export const Services = () => {
         </div>
 
       {/* Third */}
-      <div className="flex items-center w-[337px] h-[54px] bg-black lg:ml-36 ml-10 rounded-lg mt-5">
+      <div className="flex items-center w-[337px] h-[54px] bg-transparent lg:ml-36 ml-10 rounded-lg mt-5">
       <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
     <mask id="mask0_90_65" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="37" height="37">
     <rect x="0.75" y="0.0410156" width="36" height="36" fill="url(#pattern0_90_65)"/>
@@ -66,7 +66,7 @@ export const Services = () => {
       </div>
 
     {/* Fourth */}
-      <div className="flex items-center w-[337px] h-[54px] bg-black xl:ml-36 ml-10  rounded-lg mt-5">
+      <div className="flex items-center w-[337px] h-[54px] bg-transparent xl:ml-36 ml-10  rounded-lg mt-5">
       <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
     <mask id="mask0_61_969" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="37" height="37">
     <rect x="0.75" y="0.0410156" width="36" height="36" fill="url(#pattern0_61_969)"/>
@@ -88,7 +88,7 @@ export const Services = () => {
       </div>
 
       {/* Fifth */}
-      <div className="flex items-center w-[337px] h-[54px] bg-black lg:ml-36 ml-10 rounded-lg mt-5">
+      <div className="flex items-center w-[337px] h-[54px] bg-transparent lg:ml-36 ml-10 rounded-lg mt-5">
       <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
     <mask id="mask0_61_1037" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="37" height="37">
     <rect x="0.25" y="0.0410156" width="36" height="36" fill="url(#pattern0_61_1037)"/>
@@ -110,7 +110,7 @@ export const Services = () => {
       </div>
 
       {/* Sixth */}
-      <div className="flex items-center w-[337px] h-[54px] bg-black lg:ml-36 ml-10 rounded-lg mt-5">
+      <div className="flex items-center w-[337px] h-[54px] bg-transparent lg:ml-36 ml-10 rounded-lg mt-5">
       <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
     <mask id="mask0_90_77" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="37" height="37">
     <rect x="0.75" y="0.0410156" width="36" height="36" fill="url(#pattern0_90_77)"/>

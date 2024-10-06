@@ -4,6 +4,7 @@ import { FaArrowCircleRight } from "react-icons/fa";
 export const Features = () => {
   return (
     <>
+<div className="absolute w-[300px] h-[300px] sm:w-[300px] sm:h-[300px] md:w-[500px] md:h-[400px] lg:w-[700px] lg:h-[600px] left-[5rem] top-[100rem] lg:left-[50rem] lg:top-[1000px] md:left-[15rem] md:top-[1000px] bg-custom-green blur-2xl z-[-1] opacity-30 rounded-full overflow-hidden"></div>
       <div className='flex items-center justify-center text-white'>
         <h1 className="text-2xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-5xl text-center mt-36 leading-tight font-poppins font-bold">
           We Make Things Look Good
@@ -13,7 +14,7 @@ export const Features = () => {
       <div className="flex flex-wrap justify-between rounded-3xl mt-10">
         {/* Section 1 */}
         <div className="flex w-full md:w-1/2 p-4">
-          <div className="flex w-full bg-black border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden ml-auto xl:ml-36" style={{ width: '586px', height: '325px' }}>
+          <div className="flex w-full  border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden ml-auto xl:ml-36 bg-opacity-75  " style={{ width: '586px', height: '325px' }}>
             <div className="xl:w-[55%] w-full p-6">
               <h2 className="text-2xl font-bold mb-3">About Vipnan Agency</h2>
               <p className='text-base'>
@@ -37,7 +38,7 @@ export const Features = () => {
 
         {/* Section 2 */}
         <div className="flex w-full md:w-1/2 p-4">
-          <div className="flex w-full bg-black border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden" style={{ width: '586px', height: '325px' }}>
+          <div className="flex w-full bg-black border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden bg-opacity-75" style={{ width: '586px', height: '325px' }}>
             <div className="xl:w-[55%] w-full p-6">
               <h2 className="text-2xl font-bold mb-3">Is Your Brand Unique?</h2>
               <p className='text-base'>
@@ -60,9 +61,12 @@ export const Features = () => {
         </div>
       </div>
 
+      <div className="absolute w-[300px] h-[300px] sm:w-[300px] sm:h-[300px] md:w-[500px] md:h-[400px] lg:w-[700px] lg:h-[600px] left-[0rem] top-[130rem] lg:left-[0rem] lg:top-[1500px] md:left-[0rem] md:top-[1500px] bg-custom-green blur-2xl z-[-1] opacity-30 rounded-full overflow-hidden"></div>
+
+
       {/* Section 3 */}
       <div className="flex w-full p-4">
-        <div className="flex w-full bg-black border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden ml-auto xl:ml-36" style={{ width: '1196.25px', height: '325px' }}>
+        <div className="flex w-full bg-black border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden ml-auto xl:ml-36 bg-opacity-75" style={{ width: '1196.25px', height: '325px' }}>
           <div className="w-full p-6 flex flex-col justify-between">
             <div className="flex items-center justify-between">
               <div className="md:w-[60%]"> 
@@ -106,6 +110,10 @@ export const Features = () => {
           </div>
         </div>
       </div>
+
+
+      <div className="absolute w-[300px] h-[300px] lg:hidden  md:hidden left-[2rem] top-[160rem]  bg-custom-green blur-2xl z-[-1] opacity-30 rounded-full overflow-hidden"></div>
+
     </>
   );
 };

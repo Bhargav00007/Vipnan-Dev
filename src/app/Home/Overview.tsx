@@ -18,10 +18,13 @@ export const Overview = () => {
         </h1>
       </div>
 
+      <div className="absolute w-[300px] h-[300px] sm:w-[300px] sm:h-[300px] md:w-[500px] md:h-[400px] lg:w-[700px] lg:h-[600px] left-[7rem] top-[210rem] lg:left-[50rem] lg:top-[2300px] md:left-[17rem] md:top-[2300px] bg-custom-green blur-2xl z-[-1] opacity-30 rounded-full overflow-hidden"></div>
+
+
       <div className='flex flex-col md:flex-row w-full justify-between mt-10'> 
         {/* One */}
         <div className="flex w-full sm:w-1/2 lg:w-1/4 p-2 md:p-4">
-          <div className="flex w-full bg-black border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden" style={{ height: '271px' }}>
+          <div className="flex w-full bg-opacity-75 border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden" style={{ height: '271px' }}>
             <div className="w-full p-6">
             <TbCircleNumber1 className='my-5' size={22} />
               <h2 className="text-xl font-bold mb-3">Expertise</h2>
@@ -32,7 +35,7 @@ export const Overview = () => {
         </div>
 
         <div className="flex w-full sm:w-1/2 lg:w-1/4 p-2 md:p-4">
-          <div className="flex w-full bg-black border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden" style={{ height: '271px' }}>
+          <div className="flex w-full bg-opacity-75 border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden" style={{ height: '271px' }}>
             <div className="w-full p-6">
             <TbCircleNumber2 className='my-5' size={22} />
               <h2 className="text-xl font-bold mb-3">Time Savings</h2>
@@ -43,7 +46,7 @@ export const Overview = () => {
         </div>
 
         <div className="flex w-full sm:w-1/2 lg:w-1/4 p-2 md:p-4"> 
-          <div className="flex w-full bg-black border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden" style={{ height: '271px' }}>
+          <div className="flex w-full bg-opacity-75 border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden" style={{ height: '271px' }}>
             <div className="w-full p-6">
             <TbCircleNumber3  className='my-5' size={22}/>
               <h2 className="text-xl font-bold mb-3">Cost Saving</h2>
@@ -54,7 +57,7 @@ export const Overview = () => {
         </div>
 
         <div className="flex w-full sm:w-1/2 lg:w-1/4 p-2 md:p-4">
-          <div className="flex w-full bg-black border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden" style={{ height: '271px' }}>
+          <div className="flex w-full bg-opacity-75 border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden" style={{ height: '271px' }}>
             <div className="w-full p-6">
             <TbCircleNumber4 className='my-5' size={22} />
               <h2 className="text-xl font-bold mb-3">Scalability</h2>
@@ -65,11 +68,14 @@ export const Overview = () => {
         </div>
       </div>
 
+      <div className="absolute w-[300px] h-[300px] sm:w-[300px] sm:h-[300px] md:w-[500px] md:h-[400px] lg:w-[700px] lg:h-[600px] left-[0rem] top-[250rem] lg:left-[-20rem] lg:top-[2700px] md:left-[-20rem] md:top-[2900px] bg-custom-green blur-2xl z-[-1] opacity-30 rounded-full overflow-hidden"></div>
+
+
       {/* Second Four Sections */}
       <div className='flex flex-col md:flex-row w-full justify-between '> 
         {/* First Section */}
         <div className="flex w-full md:w-1/2 lg:w-1/4 p-2 md:p-4">
-          <div className="flex w-full bg-black border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden" style={{ height: '271px' }}>
+          <div className="flex w-full bg-opacity-75 border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden" style={{ height: '271px' }}>
             <div className="w-full p-6">
             <TbCircleNumber5 className='my-5' size={22} />
               <h2 className="text-xl font-bold mb-3">Branding & Identity</h2>
@@ -81,20 +87,22 @@ export const Overview = () => {
 
         {/* Second Section */}
         <div className="flex w-full md:w-1/2 lg:w-1/4 p-2 md:p-4">
-          <div className="flex w-full bg-black border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden" style={{ height: '271px' }}>
+          <div className="flex w-full bg-opacity-75 border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden" style={{ height: '271px' }}>
             <div className="w-full p-6">
             <TbCircleNumber6 className='my-5' size={22} />
 
               <h2 className="text-xl font-bold mb-3">Customer Service</h2>
               <p className='text-sm'>
-              Your goals are our priority. We are more than just a creative partner, we’re dedicated to understanding and supporting your vision every step of the way.              </p>
+              Your goals are our priority. We are more than just a creative partner, we are dedicated to understanding and supporting your vision every step of the way.              </p>
             </div>
           </div>
         </div>
 
-        {/* Yow S=More Section 1 */}
+        <div className="absolute w-[300px] h-[300px] lg:hidden  md:hidden left-[7rem] top-[290rem]  bg-custom-green blur-2xl z-[-1] opacity-30 rounded-full overflow-hidden"></div>
+
+
         <div className="flex w-full md:w-1/2 lg:w-1/4 p-2 md:p-4"> 
-          <div className="flex w-full bg-black border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden" style={{ height: '271px' }}>
+          <div className="flex w-full bg-opacity-75 border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden" style={{ height: '271px' }}>
             <div className="w-full p-6">
             <TbCircleNumber7 className='my-5' size={22}  />
 
@@ -105,18 +113,21 @@ export const Overview = () => {
           </div>
         </div>
 
-        {/* Yow S=More Section 2 */}
         <div className="flex w-full md:w-1/2 lg:w-1/4 p-2 md:p-4">
-          <div className="flex w-full bg-black border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden" style={{ height: '271px' }}>
+          <div className="flex w-full bg-opacity-75 border-2 border-custom-green text-white p-0 rounded-3xl overflow-hidden" style={{ height: '271px' }}>
             <div className="w-full p-6">
             <TbCircleNumber8 className='my-5' size={22}  />
               <h2 className="text-xl font-bold mb-3">Ongoing Support</h2>
               <p className='text-sm'>
-              Our partnership doesn’t end when the project is done. We continue to provide ongoing support, ensuring your brand thrives in the long term.              </p>
+              Our partnership does not end when the project is done. We continue to provide ongoing support, ensuring your brand thrives in the long term.              </p>
             </div>
           </div>
         </div>
       </div>
+
+      <div className="absolute w-[300px] h-[300px] lg:hidden  md:hidden left-[-7rem] top-[350rem]  bg-custom-green blur-2xl z-[-1] opacity-30 rounded-full overflow-hidden"></div>
+
+
     </>
   );
 };
