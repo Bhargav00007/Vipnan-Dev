@@ -49,7 +49,7 @@ export const Overview = () => {
               <p className="text-base">
                 We handle the heavy lifting, so you can focus on what matters.
                 Our experienced team delivers top-tier results efficiently,
-                saving you valuable time.{" "}
+                saving you valuable time.
               </p>
             </div>
           </div>

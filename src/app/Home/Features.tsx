@@ -47,8 +47,8 @@ export const Features = () => {
           <div className="xl:w-[55%] w-full p-6">
             <h2 className="text-2xl font-bold mb-3">Is Your Brand Unique?</h2>
             <p className="text-base">
-              In today's fast-paced world, your brand needs to stand out. At
-              Vipnan, we deliver innovative solutions that ensure your brand
+              In today&apos;s fast-paced world, your brand needs to stand out.
+              At Vipnan, we deliver innovative solutions that ensure your brand
               remains bold, cohesive, and unforgettable.
             </p>
             <div className="text-white py-4">
