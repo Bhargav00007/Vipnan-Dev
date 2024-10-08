@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import "./globals.css";
+import "./globals.css"; // Ensure this imports your global styles
 import Script from "next/script";
 import Head from "next/head";
 import Navbar from "./Components/Navbar";
@@ -30,9 +30,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        {/* External CSS like Boxicons */}
         <link
           href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+          rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
           rel="stylesheet"
         />
       </Head>

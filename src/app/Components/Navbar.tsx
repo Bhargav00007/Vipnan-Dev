@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Link from "next/link";
 import { FaArrowCircleRight } from "react-icons/fa";
 import { Logo } from "./ui/Logo";
 
@@ -63,21 +64,18 @@ const Navbar = () => {
         >
           <ul className="font-medium flex flex-col lg:ml-10 p-4 md:p-0 mt-4 border border-black rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent dark:bg-transparent md:dark:bg-transparent dark:border-black">
             <li>
-              <a
-                href="#"
-                className="block py-2 px-3 md:p-0 text-white bg-regular-green rounded md:bg-transparent md:text-regular-green lg:dark:text-regular-green"
-                aria-current="page"
-              >
-                Home
-              </a>
+              <Link href="/" passHref>
+                <span className="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-regular-green md:dark:hover:text-regular-green dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+                  Home
+                </span>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
-                className="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-regular-green md:dark:hover:text-regular-green dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-              >
-                Services
-              </a>
+              <Link href="/services" passHref>
+                <span className="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-regular-green md:dark:hover:text-regular-green dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+                  Services
+                </span>
+              </Link>
             </li>
             <li>
               <a
