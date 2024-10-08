@@ -138,8 +138,8 @@ const serviceOverview = () => {
                 Social Media Marketing
               </h2>
               <p className="text-lg lg:text-3xl lg:leading-relaxed">
-                We create and execute strategies that grow your brand's online
-                presence and engage with your audience.
+                We create and execute strategies that grow your brand&apos;s
+                online presence and engage with your audience.
               </p>
               <div className="px-5 lg:px-10 mt-4 rounded-lg shadow-lg">
                 <ul className="list-disc text-left">
