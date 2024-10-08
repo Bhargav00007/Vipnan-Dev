@@ -50,7 +50,7 @@ export const Services = () => {
         </div>
 
         {/* Second */}
-        <div className="flex items-center bg-transparent  rounded-lg mt-5">
+        <div className="flex items-center bg-transparent  rounded-lg mt-5 ">
           <svg
             width="37"
             height="37"

@@ -15,7 +15,8 @@ const config: Config = {
         "navbar-green": "rgba(87, 232, 186, 0.07  )",
         "regular-green": "#57E8BA",
         "green-glow": "0 4px 6px rgba(87, 232, 186, 0.9)", // Green shadow
-        "custom-border": "#A08FA3",
+        "custom-border": "rgba(160, 143, 163, 0.2)",
+        "custom-white": "#F5FFFC",
         black: {
           DEFAULT: "#070B0A", // Black color
         },
@@ -26,6 +27,8 @@ const config: Config = {
       },
       backgroundImage: {
         "custom-gradient":
+          "radial-gradient(ellipse at center 50%, rgba(87, 232, 186, 0.2) 0%, rgba(7, 11, 10, 1) 70%)",
+        "footer-gradient":
           "radial-gradient(ellipse at center 50%, rgba(87, 232, 186, 0.2) 0%, rgba(7, 11, 10, 1) 70%)",
       },
       boxShadow: {

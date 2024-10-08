@@ -17,13 +17,13 @@ export const Overview = () => {
         </h1>
       </div>
 
-      <div className="absolute w-[300px] h-[300px] sm:w-[300px] sm:h-[300px] md:w-[500px] md:h-[400px] lg:w-[600px] lg:h-[400px] left-[5rem] top-[210rem] lg:left-[55rem] lg:top-[2300px] md:left-[12rem] md:top-[2300px] bg-custom-green blur-2xl z-[-1] opacity-30 rounded-full overflow-hidden"></div>
+      <div className="absolute w-[400px] h-[300px] sm:w-[300px] sm:h-[300px] md:w-[500px] md:h-[400px] lg:w-[600px] lg:h-[400px] left-[0rem] top-[200rem] lg:left-[67rem] lg:top-[2400px] md:left-[15rem] md:top-[2300px] bg-custom-green blur-3xl z-[-1] opacity-50 rounded-full overflow-hidden"></div>
 
       <div className="flex flex-col md:flex-row  justify-between  grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 p-5 lg:p-20 md:p-20">
         {/* One */}
         <div className="flex  ">
           <div
-            className="flex  bg-opacity-75 border-2 border-custom-green text-white m-5 rounded-3xl overflow-hidden"
+            className="flex bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-3xl overflow-hidden"
             style={{ height: "271px" }}
           >
             <div className="w-full p-6">
@@ -40,7 +40,7 @@ export const Overview = () => {
 
         <div className="flex w-full ">
           <div
-            className="flex w-full bg-opacity-75 border-2 border-custom-green text-white m-5 rounded-3xl overflow-hidden"
+            className="flex w-full bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-3xl overflow-hidden"
             style={{ height: "271px" }}
           >
             <div className="w-full p-6">
@@ -57,7 +57,7 @@ export const Overview = () => {
 
         <div className="flex w-full ">
           <div
-            className="flex w-full bg-opacity-75 border-2 border-custom-green text-white m-5 rounded-3xl overflow-hidden"
+            className="flex w-full bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-3xl overflow-hidden"
             style={{ height: "271px" }}
           >
             <div className="w-full p-6">
@@ -74,7 +74,7 @@ export const Overview = () => {
 
         <div className="flex w-full  ">
           <div
-            className="flex w-full bg-opacity-75 border-2 border-custom-green text-white m-5 rounded-3xl overflow-hidden"
+            className="flex w-full bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-3xl overflow-hidden"
             style={{ height: "271px" }}
           >
             <div className="w-full p-6">
@@ -89,14 +89,14 @@ export const Overview = () => {
           </div>
         </div>
 
-        <div className="absolute w-[300px] h-[300px] sm:w-[300px] sm:h-[300px] md:w-[500px] md:h-[400px] lg:w-[600px] lg:h-[400px] left-[0rem] top-[250rem] lg:left-[-20rem] lg:top-[2700px] md:left-[-20rem] md:top-[2900px] bg-custom-green blur-2xl z-[-1] opacity-30 rounded-full overflow-hidden"></div>
+        <div className="absolute w-[400px] h-[300px] sm:w-[300px] sm:h-[300px] md:w-[500px] md:h-[400px] lg:w-[600px] lg:h-[400px] left-[-10rem] top-[250rem] lg:left-[-20rem] lg:top-[2900px] md:left-[-10rem] md:top-[2900px] bg-custom-green blur-2xl z-[-1] opacity-50 rounded-full overflow-hidden"></div>
 
         {/* Second Four Sections */}
 
         {/* First Section */}
         <div className="flex w-full   ">
           <div
-            className="flex w-full bg-opacity-75 border-2 border-custom-green text-white m-5 rounded-3xl overflow-hidden"
+            className="flex w-full bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-3xl overflow-hidden"
             style={{ height: "271px" }}
           >
             <div className="w-full p-6">
@@ -114,7 +114,7 @@ export const Overview = () => {
         {/* Second Section */}
         <div className="flex w-full   ">
           <div
-            className="flex w-full bg-opacity-75 border-2 border-custom-green text-white m-5 rounded-3xl overflow-hidden"
+            className="flex w-full bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-3xl overflow-hidden"
             style={{ height: "271px" }}
           >
             <div className="w-full p-6">
@@ -130,11 +130,11 @@ export const Overview = () => {
           </div>
         </div>
 
-        <div className="absolute w-[300px] h-[300px] lg:hidden  md:hidden left-[7rem] top-[290rem]  bg-custom-green blur-2xl z-[-1] opacity-30 rounded-full overflow-hidden"></div>
+        <div className="absolute w-[300px] h-[300px] lg:hidden  md:hidden left-[7rem] top-[290rem]  bg-custom-green blur-2xl z-[-1] opacity-50 rounded-full overflow-hidden"></div>
 
         <div className="flex w-full   ">
           <div
-            className="flex w-full bg-opacity-75 border-2 border-custom-green text-white m-5 rounded-3xl overflow-hidden"
+            className="flex w-full bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-3xl overflow-hidden"
             style={{ height: "271px" }}
           >
             <div className="w-full p-6">
@@ -152,7 +152,7 @@ export const Overview = () => {
 
         <div className="flex w-full   ">
           <div
-            className="flex w-full bg-opacity-75 border-2 border-custom-green text-white m-5 rounded-3xl overflow-hidden"
+            className="flex w-full bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-3xl overflow-hidden"
             style={{ height: "271px" }}
           >
             <div className="w-full p-6">
@@ -168,7 +168,7 @@ export const Overview = () => {
         </div>
       </div>
 
-      <div className="absolute w-[300px] h-[300px] lg:hidden  md:hidden left-[-7rem] top-[350rem]  bg-custom-green blur-2xl z-[-1] opacity-30 rounded-full overflow-hidden"></div>
+      <div className="absolute w-[400px] h-[300px] md:w-[500px] md:h-[400px] lg:hidden   left-[-7rem] top-[350rem] md:left-[16rem] md:top-[3500px]  bg-custom-green blur-2xl z-[-1] opacity-50 rounded-full overflow-hidden"></div>
     </>
   );
 };
