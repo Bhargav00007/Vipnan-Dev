@@ -17,7 +17,7 @@ export const Overview = () => {
         </h1>
       </div>
 
-      <div className="absolute w-[400px] h-[300px] sm:w-[300px] sm:h-[300px] md:w-[500px] md:h-[400px] lg:w-[600px] lg:h-[400px] left-[0rem] top-[200rem] lg:left-[67rem] lg:top-[2400px] md:left-[15rem] md:top-[2300px] bg-custom-green blur-3xl z-[-1] opacity-50 rounded-full overflow-hidden"></div>
+      <div className="absolute w-[400px] h-[300px] sm:w-[300px] sm:h-[300px] md:w-[500px] md:h-[400px] lg:w-[600px] lg:h-[400px] left-[0rem] top-[200rem] lg:left-[65rem] lg:top-[2400px] md:left-[15rem] md:top-[2300px] bg-custom-green blur-2xl z-[-1] opacity-50 rounded-full overflow-hidden"></div>
 
       <div className="flex flex-col md:flex-row  justify-between  grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 p-5 lg:p-20 md:p-20">
         {/* One */}
