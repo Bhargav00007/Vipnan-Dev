@@ -2,22 +2,35 @@
 import { useState } from "react";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
-const textSlides = [
-  "“Working with Vipnan was like adding an extra brain to our team. Their graphic design work blew us away, and I've never met an agency that just 'gets' us the way they do”",
-  "“Working with Vipnan was like adding an extra brain to our team. Their graphic design work blew us away, and I've never met an agency that just 'gets' us the way they do”",
-  "“Working with Vipnan was like adding an extra brain to our team. Their graphic design work blew us away, and I've never met an agency that just 'gets' us the way they do”",
+// Array of objects with text, name, and title for each slide
+const slides = [
+  {
+    text: "“Working with Vipnan was like adding an extra brain to our team. Their graphic design work blew us away, and I've never met an agency that just 'gets' us the way they do”",
+    name: "Udit Kalra",
+    title: "Social Media Manager, Evolet India",
+  },
+  {
+    text: "“Their attention to detail and creativity are unmatched. Vipnan has been an essential part of our branding journey, and we couldn't have asked for better collaborators.”",
+    name: "Shivani Sharma",
+    title: "Creative Director, XYZ Corp",
+  },
+  {
+    text: "“Vipnan helped us reach a new level of success with their unique ideas and flawless execution. They always go above and beyond our expectations.”",
+    name: "Raj Mehta",
+    title: "Marketing Head, ABC Solutions",
+  },
 ];
 
 const AboutCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % textSlides.length);
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % slides.length);
   };
 
   const prevSlide = () => {
     setCurrentIndex(
-      (prevIndex) => (prevIndex - 1 + textSlides.length) % textSlides.length
+      (prevIndex) => (prevIndex - 1 + slides.length) % slides.length
     );
   };
 
@@ -36,32 +49,32 @@ const AboutCarousel = () => {
             <div className="p-16 bg-black bg-opacity-75 border-2 border-custom-border rounded-3xl shadow-lg w-full h-full flex flex-col items-center justify-center">
               {/* Slide Text */}
               <p className="text-lg md:text-2xl lg:text-4xl lg:leading-normal mb-4">
-                {textSlides[currentIndex]}
+                {slides[currentIndex].text}
               </p>
-              {/* Name and all */}
-              <p className="text-base md:text-lg lg:text-xl text-custom-white mt-5 ">
-                Udit Kalra <br /> Social Media Manager, Evolet India
+              {/* Name and Title */}
+              <p className="text-base md:text-lg lg:text-xl text-custom-white mt-5">
+                {slides[currentIndex].name} <br /> {slides[currentIndex].title}
               </p>
             </div>
           </div>
         </div>
 
-        {/* For mobile */}
+        {/* For Mobile */}
         <div className="md:hidden flex flex-col items-center grid grid-cols-1">
-          {textSlides.map((text, index) => (
+          {slides.map((slide, index) => (
             <div key={index} className="w-full p-5">
               <div className="p-5 w-[360px] h-[280px] bg-black bg-opacity-75 border-2 border-custom-border rounded-3xl shadow-lg text-center font-semibold">
                 {/* Slide Text */}
-                <p className=" text-xl ">{text}</p>
+                <p className="text-xl">{slide.text}</p>
                 <p className="text-base text-custom-white mt-5">
-                  Udit Kalra <br /> Social Media Manager, Evolet India
+                  {slide.name} <br /> {slide.title}
                 </p>
               </div>
             </div>
           ))}
         </div>
 
-        {/*buttons */}
+        {/* Buttons */}
         <button
           onClick={prevSlide}
           className="hidden md:flex absolute top-1/2 ml-20 transform -translate-y-1/2 bg-transparent border-2 border-blue-300 rounded-full p-5 shadow"

@@ -78,12 +78,11 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <a
-                href="#"
-                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-regular-green md:p-0 dark:text-white md:dark:hover:text-regular-green dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                Clients
-              </a>
+              <Link href="/clients" passHref>
+                <span className="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-regular-green md:dark:hover:text-regular-green dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+                  Clients
+                </span>
+              </Link>
             </li>
             <Link href="/about" passHref>
               <span className="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-regular-green md:dark:hover:text-regular-green dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
