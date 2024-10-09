@@ -21,14 +21,15 @@ const Navbar = () => {
         <Logo />
 
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse border-white-2 rounded-3xl">
-          <button
-            type="button"
-            className="text-white hidden md:flex transition-colors duration-300 bg-transparent hover:bg-transparent focus:ring-4 focus:outline-none focus:ring-white-300 font-medium text-base px-7 py-3 text-center dark:bg-custom-green dark:hover:bg-transparent dark:focus:ring-black border border-custom-border rounded-3xl"
-          >
-            Contact Us
-            <FaArrowCircleRight className="inline ml-2  mt-1" />
-          </button>
-
+          <Link href="/contact" passHref>
+            <button
+              type="button"
+              className="text-white hidden md:flex transition-colors duration-300 bg-transparent hover:bg-transparent   font-medium text-base px-7 py-3 text-center dark:bg-custom-green dark:hover:bg-transparent  border border-custom-border rounded-3xl"
+            >
+              Contact Us
+              <FaArrowCircleRight className="inline ml-2  mt-1" />
+            </button>
+          </Link>
           <button
             onClick={toggleMenu}
             data-collapse-toggle="navbar-cta"
@@ -90,12 +91,11 @@ const Navbar = () => {
               </span>
             </Link>
             <li>
-              <a
-                href="#"
-                className="block md:hidden py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-regular-green md:dark:hover:text-regular-green dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-              >
-                Contact us
-              </a>
+              <Link href="/contact" passHref>
+                <span className="block lg:hidden py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-regular-green md:dark:hover:text-regular-green dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+                  Contact us
+                </span>
+              </Link>
             </li>
           </ul>
         </div>
