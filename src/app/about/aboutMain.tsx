@@ -1,5 +1,4 @@
 import React from "react";
-import { FaArrowCircleRight } from "react-icons/fa";
 
 const AboutMain = () => {
   return (
