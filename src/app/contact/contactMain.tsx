@@ -16,8 +16,8 @@ export const ContactMain = () => {
         </div>
         <div className="flex  text-custom-white sm:justify-start justify-center px-10 lg:px-[180px] py-0">
           <p className="text-base sm:text-base md:text-base lg:text-base xl:text-base text-center leading-tight font-poppins">
-            We'd love to learn more about you and what we can design and build
-            together.
+            We&apos;d love to learn more about you and what we can design and
+            build together.
           </p>
         </div>
         <div className="flex flex-col text-custom-white sm:justify-start justify-center px-10 lg:px-[180px] py-10">
