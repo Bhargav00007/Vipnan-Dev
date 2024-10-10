@@ -37,8 +37,9 @@ export const TermsMain = () => {
           <p className="text-lg md:text-xl">
             Welcome to Vipnan, A remote freelance creative agency based in
             India. By accessing our website and engaging with our services, you
-            agree to be bound by these Terms of Service ("Terms"). If you do not
-            agree with these Terms, please refrain from using our services.
+            agree to be bound by these Terms of Service (&quot;Terms&quot;). If
+            you do not agree with these Terms, please refrain from using our
+            services.
           </p>
         </section>
 
@@ -191,10 +192,10 @@ export const TermsMain = () => {
               consequential damages.
             </li>
             <li>
-              <strong>Liability Cap:</strong> Vipnan's total liability for any
-              claim arising out of or relating to our services shall not exceed
-              the amount paid by the client for the specific project or service
-              giving rise to such a claim.
+              <strong>Liability Cap:</strong> Vipnan&apos;s total liability for
+              any claim arising out of or relating to our services shall not
+              exceed the amount paid by the client for the specific project or
+              service giving rise to such a claim.
             </li>
           </ul>
         </section>

@@ -37,8 +37,9 @@ export const PrivacyMain = () => {
           <p className="text-lg md:text-xl">
             Welcome to Vipnan, A remote freelance creative agency based in
             India. By accessing our website and engaging with our services, you
-            agree to be bound by these Terms of Service ("Terms"). If you do not
-            agree with these Terms, please refrain from using our services.
+            agree to be bound by these Terms of Service (&quot;Terms&quot;). If
+            you do not agree with these Terms, please refrain from using our
+            services.
           </p>
         </section>
 
