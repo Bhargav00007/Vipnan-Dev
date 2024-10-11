@@ -28,7 +28,7 @@ export const Main = () => {
           <Link href="/contact">
             <button
               type="button"
-              className="text-black hover:text-white bg-black hover:bg-custom-green transition-colors duration-300  focus:outline-none text-base px-7 py-3 text-center dark:bg-regular-green dark:hover:bg-black  border border-custom-border rounded-3xl shadow-custom font-bold"
+              className="text-black  hover:text-white  bg-regular-green hover:bg-black transition-colors duration-300  focus:outline-none text-base px-7 py-3 text-center dark:bg-regular-green dark:hover:bg-black  border border-custom-border rounded-3xl shadow-custom font-bold"
             >
               Let&apos;s Get Creative
               <FaArrowCircleRight className="inline ml-2 mb-1" />

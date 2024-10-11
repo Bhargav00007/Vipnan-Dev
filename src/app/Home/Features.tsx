@@ -27,7 +27,7 @@ export const Features = () => {
             <div className="text-white py-4">
               <button
                 type="button"
-                className="text-black hover:text-white bg-black hover:bg-black transition-colors duration-300  text-base px-7 py-3 text-center dark:bg-regular-green   border border-custom-border rounded-3xl shadow-xl font-bold"
+                className="text-black  hover:text-white  bg-regular-green hover:bg-black transition-colors duration-300  text-base px-7 py-3 text-center dark:bg-regular-green   border border-custom-border rounded-3xl shadow-xl font-bold"
               >
                 Learn More
                 <FaArrowCircleRight className="inline ml-2 mb-1" />
@@ -55,7 +55,7 @@ export const Features = () => {
             <div className="text-white py-4">
               <button
                 type="button"
-                className="text-black hover:text-white bg-black hover:bg-custom-green transition-colors duration-300 focus:ring-4 focus:outline-none focus:ring-white-300 text-base px-7 py-3 text-center dark:bg-regular-green dark:hover:bg-black dark:focus:ring-black border border-custom-border rounded-3xl shadow-xl font-bold"
+                className="text-black  hover:text-white  bg-regular-green hover:bg-black transition-colors duration-300  text-base px-7 py-3 text-center dark:bg-regular-green dark:hover:bg-black dark:focus:ring-black border border-custom-border rounded-3xl shadow-xl font-bold"
               >
                 Learn More
                 <FaArrowCircleRight className="inline ml-2 mb-1" />
@@ -95,7 +95,7 @@ export const Features = () => {
                 <div className="hidden lg:block text-white py-4">
                   <button
                     type="button"
-                    className="text-black hover:text-white bg-black hover:bg-custom-green transition-colors duration-300 focus:ring-4 focus:outline-none focus:ring-white-300 text-base px-7 py-3 text-center dark:bg-regular-green dark:hover:bg-black dark:focus:ring-black border border-custom-border rounded-3xl shadow-xl font-bold"
+                    className="text-black  hover:text-white  bg-regular-green hover:bg-black transition-colors duration-300  text-base px-7 py-3 text-center dark:bg-regular-green dark:hover:bg-black dark:focus:ring-black border border-custom-border rounded-3xl shadow-xl font-bold"
                   >
                     Learn More
                     <FaArrowCircleRight className="inline ml-2 mb-1" />
@@ -124,7 +124,7 @@ export const Features = () => {
                 <div className="block lg:hidden text-white py-4">
                   <button
                     type="button"
-                    className="text-black hover:text-white bg-black hover:bg-custom-green transition-colors duration-300 focus:ring-4 focus:outline-none focus:ring-white-300 text-base px-7 py-3 text-center dark:bg-regular-green dark:hover:bg-black dark:focus:ring-black border border-custom-border rounded-3xl shadow-xl font-bold"
+                    className="text-black  hover:text-white  bg-regular-green hover:bg-black hover:bg-custom-green transition-colors duration-300 focus:ring-4 focus:outline-none focus:ring-white-300 text-base px-7 py-3 text-center dark:bg-regular-green dark:hover:bg-black dark:focus:ring-black border border-custom-border rounded-3xl shadow-xl font-bold"
                   >
                     Learn More
                     <FaArrowCircleRight className="inline ml-2 mb-1" />
