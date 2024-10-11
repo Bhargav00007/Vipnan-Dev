@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { FaArrowCircleRight } from "react-icons/fa";
 import { Logo } from "./ui/Logo";
@@ -11,12 +11,27 @@ const Navbar = () => {
     setIbaseenuOpen(!ibaseenuOpen);
   };
 
+  useEffect(() => {
+    if (ibaseenuOpen) {
+      // Add padding to the body when the navbar is open
+      document.body.style.paddingTop = "83.5px"; // Adjust as needed for the scroll bar
+    } else {
+      // Remove padding when the navbar is closed
+      document.body.style.paddingTop = "0";
+    }
+
+    return () => {
+      // Cleanup: reset styles on unmount
+      document.body.style.paddingTop = "0";
+    };
+  }, [ibaseenuOpen]);
+
   return (
-    <nav className=" ">
+    <nav className={`${ibaseenuOpen ? "fixed w-full top-0 z-50" : ""}`}>
       <div
-        className={` dark:bg-gradient-to-b from-black to-navbar-green w-auto bg-black flex flex-wrap bg-black  items-center justify-between mx-2.5 lg:mx-[119px] md:mx-20 p-4 lg:p-6 lg:mt-[40px] mt-2.5 border border-custom-green overflow-hidden  ${
+        className={`dark:bg-gradient-to-b from-black to-navbar-green w-auto bg-black flex flex-wrap items-center justify-between mx-2.5 lg:mx-[119px] md:mx-20 p-4 lg:p-6 lg:mt-[40px] mt-2.5 border border-custom-green overflow-hidden ${
           ibaseenuOpen ? "rounded-3xl" : "rounded-full"
-        } bg-transparent`}
+        } bg-black`}
       >
         <Logo />
 
@@ -24,17 +39,17 @@ const Navbar = () => {
           <Link href="/contact" passHref>
             <button
               type="button"
-              className="text-custom-white hidden md:flex transition-colors duration-300 bg-transparent hover:bg-transparent   font-bold text-base px-7 py-3 text-center dark:bg-custom-green dark:hover:bg-transparent  border border-custom-border rounded-3xl"
+              className="text-custom-white hidden md:flex transition-colors duration-300 bg-transparent hover:bg-transparent font-bold text-base px-7 py-3 text-center dark:bg-custom-green dark:hover:bg-transparent border border-custom-border rounded-3xl"
             >
               Contact Us
-              <FaArrowCircleRight className="inline ml-2  mt-1" />
+              <FaArrowCircleRight className="inline ml-2 mt-1" />
             </button>
           </Link>
           <button
             onClick={toggleMenu}
             data-collapse-toggle="navbar-cta"
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-base text-gray-100 rounded-lg md:hidden  focus:outline-none  dark:text-gray-100 "
+            className="inline-flex items-center p-2 w-10 h-10 justify-center text-base text-gray-100 rounded-lg md:hidden focus:outline-none dark:text-gray-100"
             aria-controls="navbar-cta"
             aria-expanded={ibaseenuOpen}
           >
@@ -60,7 +75,7 @@ const Navbar = () => {
         <div
           className={`items-center justify-between ${
             ibaseenuOpen ? "block" : "hidden"
-          }  w-full md:flex md:w-auto md:order-1`}
+          } w-full md:flex md:w-auto md:order-1`}
           id="navbar-cta"
         >
           <ul className="font-medium flex flex-col lg:ml-10 p-4 md:p-0 mt-4 border border-black rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent dark:bg-transparent md:dark:bg-transparent dark:border-black">
@@ -73,7 +88,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link href="/services" passHref>
-                <span className="block py-2 px-3 md:p-0  dark:text-custom-white text-black rounded hover:bg-custom-green md:hover:bg-transparent md:hover:text-regular-green md:dark:hover:text-regular-green dark:text-custom-white dark:hover:bg-gray-700 dark:hover:text-custom-white md:dark:hover:bg-transparent dark:border-gray-700">
+                <span className="block py-2 px-3 md:p-0 dark:text-custom-white text-black rounded hover:bg-custom-green md:hover:bg-transparent md:hover:text-regular-green md:dark:hover:text-regular-green dark:text-custom-white dark:hover:bg-gray-700 dark:hover:text-custom-white md:dark:hover:bg-transparent dark:border-gray-700">
                   Services
                 </span>
               </Link>
@@ -85,14 +100,16 @@ const Navbar = () => {
                 </span>
               </Link>
             </li>
-            <Link href="/about" passHref>
-              <span className="block py-2 px-3 md:p-0  dark:text-custom-white text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-regular-green md:dark:hover:text-regular-green dark:text-custom-white dark:hover:bg-gray-700 dark:hover:text-custom-white md:dark:hover:bg-transparent dark:border-gray-700">
-                About
-              </span>
-            </Link>
+            <li>
+              <Link href="/about" passHref>
+                <span className="block py-2 px-3 md:p-0 dark:text-custom-white text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-regular-green md:dark:hover:text-regular-green dark:text-custom-white dark:hover:bg-gray-700 dark:hover:text-custom-white md:dark:hover:bg-transparent dark:border-gray-700">
+                  About
+                </span>
+              </Link>
+            </li>
             <li>
               <Link href="/contact" passHref>
-                <span className="block lg:hidden py-2 px-3 md:p-0  dark:text-custom-white text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-regular-green md:dark:hover:text-regular-green dark:text-custom-white dark:hover:bg-gray-700 dark:hover:text-custom-white md:dark:hover:bg-transparent dark:border-gray-700">
+                <span className="block lg:hidden py-2 px-3 md:p-0 dark:text-custom-white text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-regular-green md:dark:hover:text-regular-green dark:text-custom-white dark:hover:bg-gray-700 dark:hover:text-custom-white md:dark:hover:bg-transparent dark:border-gray-700">
                   Contact us
                 </span>
               </Link>
