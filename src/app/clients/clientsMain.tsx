@@ -7,7 +7,7 @@ const ClientsMain = () => {
     <>
       <div className="bg-custom-gradient">
         <div className="flex justify-center items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse border-white-2 rounded-3xl ">
-          <div className="flex items-center justify-center text-regular-green bg-gradient-to-b from-black to-custom-green focus:ring-4 focus:outline-none focus:ring-white-300 font-bold text-sm px-7 py-2 mt-20 text-center dark:focus:ring-black border border-custom-green rounded-3xl ">
+          <div className="flex items-center lg:w-[270px] justify-center text-regular-green bg-gradient-to-b from-black to-custom-green  font-bold text-sm px-8 py-2 mt-20 text-center  border border-custom-green rounded-3xl ">
             <h2>Where Strategy meets action.</h2>
           </div>
         </div>
@@ -18,7 +18,7 @@ const ClientsMain = () => {
         </div>
         <div className="flex items-center justify-center text-white px-4 py-4">
           <p className="text-base sm:text-base md:text-base lg:text-base xl:text-base text-center leading-tight font-poppins">
-            We’re proud to collaborate with forward-thinking brands across
+            We&apos;re proud to collaborate with forward-thinking brands across
             industries.
             <br /> From startups to established enterprises, our clients trust
             Vipnan to deliver creative <br /> solutions that drive real results.

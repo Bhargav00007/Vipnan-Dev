@@ -3,10 +3,10 @@ import React from "react";
 
 export const Footer = () => {
   return (
-    <footer className="w-full p-8 bg-custom-green  mt-36">
-      <div className="mb-10  flex flex-col md:flex-row items-start md:items-center justify-start md:justify-between text-left md:text-center">
+    <footer className="w-full flex-grow p-8 bg-custom-green  mt-40">
+      <div className="mb-10 lg:mx-[165px] flex flex-col md:flex-row items-start md:items-center justify-start md:justify-between text-left md:text-center ">
         <svg
-          className="xl:ml-20 mr-3"
+          className="  mr-3"
           width="24"
           height="27"
           viewBox="0 0 24 27"
@@ -31,17 +31,17 @@ export const Footer = () => {
           </defs>
         </svg>
 
-        <div className=" hidden md:block text-white mr-auto">
+        <div className=" hidden md:block text-white lg:mr-auto ">
           <h1 className="text-2xl leading-tight font-poppins font-bold">
             Vipnan
           </h1>
         </div>
 
-        <ul className="flex flex-col md:flex-row items-start md:items-center gap-y-3 gap-x-8 mt-5 md:mt-0 md:mr-20 md:mx-5 ">
+        <ul className="flex flex-col md:flex-row items-start md:items-center gap-y-3 gap-x-8 mt-5 md:mt-0  md:mx-5 ">
           <li>
             <Link
               href="/"
-              className="text-custom-white hover:text-slate-500 focus:text-slate-500 text-base"
+              className="text-custom-white hover:text-regular-green  text-base"
             >
               Home
             </Link>
@@ -49,7 +49,7 @@ export const Footer = () => {
           <li>
             <Link
               href="/services"
-              className="text-custom-white hover:text-slate-500 focus:text-slate-500 text-base"
+              className="text-custom-white hover:text-regular-green text-base"
             >
               Services
             </Link>
@@ -57,7 +57,7 @@ export const Footer = () => {
           <li>
             <Link
               href="/clients"
-              className="text-custom-white hover:text-slate-500 focus:text-slate-500 text-base"
+              className="text-custom-white hover:text-regular-green  text-base"
             >
               Clients
             </Link>
@@ -65,7 +65,7 @@ export const Footer = () => {
           <li>
             <Link
               href="/about"
-              className="text-custom-white hover:text-slate-500 focus:text-slate-500 text-base"
+              className="text-custom-white hover:text-regular-green  text-base"
             >
               About
             </Link>
@@ -73,7 +73,7 @@ export const Footer = () => {
           <li>
             <Link
               href="contact"
-              className="text-custom-white hover:text-slate-500 focus:text-slate-500 text-base"
+              className="text-custom-white hover:text-regular-green  text-base"
             >
               Contact Us
             </Link>
@@ -81,7 +81,7 @@ export const Footer = () => {
         </ul>
       </div>
 
-      <div className="mt-10 flex justify-between items-center mx-0 md:mx-20 mb-4 text-base text-custom-white md:mb-0 border-t border-slate-200 pt-4">
+      <div className="mt-10 flex justify-between items-center mx-0 lg:mx-[165px]  mb-4 text-base text-custom-white md:mb-0 border-t border-slate-200 pt-4">
         <p className="text-base text-custom-white">
           © 2024&nbsp;
           <Link href="#" target="_blank" rel="noreferrer">
@@ -90,11 +90,14 @@ export const Footer = () => {
         </p>
 
         <p className="text-base text-custom-white ">
-          <Link href="/terms" className="hover:text-custom-green lg:px-10 px-5">
+          <Link
+            href="/terms"
+            className="hover:text-regular-green lg:px-10 px-5"
+          >
             Terms
           </Link>
 
-          <Link href="/privacy" className="hover:text-custom-green ">
+          <Link href="/privacy" className="hover:text-regular-green mr-5 ">
             Privacy Policy
           </Link>
         </p>

@@ -11,26 +11,23 @@ import { TbCircleNumber8 } from "react-icons/tb";
 export const AboutOverview = () => {
   return (
     <>
-      <div className="absolute overflow-hidden w-[300px] h-[300px] sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[300px] lg:w-[600px] lg:h-[400px] left-[0rem] top-[85rem] lg:left-[15rem] lg:top-[900px] md:left-[5rem] md:top-[800px] bg-custom-green blur-2xl z-[-1] opacity-50 rounded-full "></div>
-      <div className="absolute overflow-hidden w-[300px] h-[300px] sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[300px] lg:w-[600px] lg:h-[400px] left-[7rem] top-[105rem] lg:left-[55rem] lg:top-[1100px] md:left-[22rem] md:top-[1050px] bg-custom-green blur-2xl z-[-1] opacity-50 rounded-full "></div>
-      <div className="absolute w-[300px] h-[300px] sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[300px] lg:w-[600px] lg:h-[400px] left-[0rem] top-[130rem] lg:left-[0rem] lg:top-[1500px] md:left-[-10rem] md:top-[1400px] bg-custom-green blur-2xl z-[-1] opacity-50 rounded-full overflow-hidden"></div>
-      <div className="absolute w-[300px] h-[300px] lg:hidden  md:hidden left-[7rem] top-[155rem]  bg-custom-green blur-2xl z-[-1] opacity-50 rounded-full overflow-hidden"></div>
-      <div className="absolute w-[400px] h-[300px] lg:hidden  md:hidden sm:w-[300px] sm:h-[300px] md:w-[500px] md:h-[400px] lg:w-[600px] lg:h-[400px] left-[0rem] top-[200rem] lg:left-[55rem] lg:top-[2400px] md:left-[15rem] md:top-[2300px] bg-custom-green blur-2xl z-[-1] opacity-50 rounded-full overflow-hidden"></div>
-      <div className="absolute w-[400px] h-[300px] lg:hidden  md:hidden sm:w-[300px] sm:h-[300px] md:w-[500px] md:h-[400px] lg:w-[600px] lg:h-[400px] left-[-10rem] top-[250rem] lg:left-[-20rem] lg:top-[2900px] md:left-[-10rem] md:top-[2900px] bg-custom-green blur-2xl z-[-1] opacity-50 rounded-full overflow-hidden"></div>
+      <div className="absolute overflow-hidden w-[300px] h-[300px] sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[300px] lg:w-[600px] lg:h-[400px] left-[0rem] top-[85rem] lg:left-[15rem] lg:top-[900px] md:left-[5rem] md:top-[800px] bg-custom-green blur-3xl z-[-1] opacity-50 rounded-full "></div>
+      <div className="absolute overflow-hidden w-[40vw] h-[30vw] sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[300px] lg:w-[600px] lg:h-[400px] left-[7rem] top-[105rem] lg:left-[55rem] lg:top-[1100px] md:left-[22rem] md:top-[1050px] bg-custom-green blur-3xl z-[-1] opacity-50 rounded-full "></div>
+      <div className="absolute w-[300px] h-[300px] sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[300px] lg:w-[600px] lg:h-[400px] left-[0rem] top-[130rem] lg:left-[0rem] lg:top-[1500px] md:left-[-10rem] md:top-[1400px] bg-custom-green blur-3xl z-[-1] opacity-50 rounded-full overflow-hidden"></div>
+      <div className="absolute w-[300px] h-[300px] lg:hidden  md:hidden left-[7rem] top-[155rem]  bg-custom-green blur-3xl z-[-1] opacity-50 rounded-full overflow-hidden"></div>
+      <div className="absolute w-[400px] h-[300px] lg:hidden  md:hidden sm:w-[300px] sm:h-[300px] md:w-[500px] md:h-[400px] lg:w-[600px] lg:h-[400px] left-[0rem] top-[200rem] lg:left-[55rem] lg:top-[2400px] md:left-[15rem] md:top-[2300px] bg-custom-green blur-3xl z-[-1] opacity-50 rounded-full overflow-hidden"></div>
+      <div className="absolute w-[400px] h-[300px] lg:hidden  md:hidden sm:w-[300px] sm:h-[300px] md:w-[500px] md:h-[400px] lg:w-[600px] lg:h-[400px] left-[-10rem] top-[250rem] lg:left-[-20rem] lg:top-[2900px] md:left-[-10rem] md:top-[2900px] bg-custom-green blur-3xl z-[-1] opacity-50 rounded-full overflow-hidden"></div>
 
       <div className="flex items-center justify-center text-white">
-        <h1 className="text-2xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-5xl text-center mt-16 leading-tight font-poppins font-bold">
+        <h1 className="text-2xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-5xl text-center mt-40 leading-tight font-poppins font-bold">
           Why Vipnan is Your Game-Changer
         </h1>
       </div>
 
-      <div className="flex flex-col md:flex-row  justify-between  grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 p-5 lg:px-24 md:p-20">
+      <div className="flex flex-col md:flex-row  justify-between  grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 p-5 mx-[30px] lg:mx-[120px]">
         {/* One */}
         <div className="flex  ">
-          <div
-            className="flex bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-3xl overflow-hidden"
-            style={{ height: "271px" }}
-          >
+          <div className="flex flex-grow bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-[30px] overflow-hidden">
             <div className="w-full p-6">
               <TbCircleNumber1 className="my-5" size={22} />
               <h2 className="text-xl font-bold mb-3">Expertise</h2>
@@ -44,10 +41,7 @@ export const AboutOverview = () => {
         </div>
 
         <div className="flex w-full ">
-          <div
-            className="flex w-full bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-3xl overflow-hidden"
-            style={{ height: "271px" }}
-          >
+          <div className="flex flex-grow w-full bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-[30px] overflow-hidden">
             <div className="w-full p-6">
               <TbCircleNumber2 className="my-5" size={22} />
               <h2 className="text-xl font-bold mb-3">Time Savings</h2>
@@ -61,10 +55,7 @@ export const AboutOverview = () => {
         </div>
 
         <div className="flex w-full ">
-          <div
-            className="flex w-full bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-3xl overflow-hidden"
-            style={{ height: "271px" }}
-          >
+          <div className="flex flex-grow w-full bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-[30px] overflow-hidden">
             <div className="w-full p-6">
               <TbCircleNumber3 className="my-5" size={22} />
               <h2 className="text-xl font-bold mb-3">Cost Saving</h2>
@@ -78,10 +69,7 @@ export const AboutOverview = () => {
         </div>
 
         <div className="flex w-full  ">
-          <div
-            className="flex w-full bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-3xl overflow-hidden"
-            style={{ height: "271px" }}
-          >
+          <div className="flex flex-grow w-full bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-[30px] overflow-hidden">
             <div className="w-full p-6">
               <TbCircleNumber4 className="my-5" size={22} />
               <h2 className="text-xl font-bold mb-3">Scalability</h2>
@@ -98,10 +86,7 @@ export const AboutOverview = () => {
 
         {/* First Section */}
         <div className="flex w-full   ">
-          <div
-            className="flex w-full bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-3xl overflow-hidden"
-            style={{ height: "271px" }}
-          >
+          <div className="flex flex-grow w-full bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-[30px] overflow-hidden">
             <div className="w-full p-6">
               <TbCircleNumber5 className="my-5" size={22} />
               <h2 className="text-xl font-bold mb-3">Branding & Identity</h2>
@@ -116,10 +101,7 @@ export const AboutOverview = () => {
 
         {/* Second Section */}
         <div className="flex w-full   ">
-          <div
-            className="flex w-full bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-3xl overflow-hidden"
-            style={{ height: "271px" }}
-          >
+          <div className="flex flex-grow w-full bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-[30px] overflow-hidden">
             <div className="w-full p-6">
               <TbCircleNumber6 className="my-5" size={22} />
 
@@ -134,10 +116,7 @@ export const AboutOverview = () => {
         </div>
 
         <div className="flex w-full   ">
-          <div
-            className="flex w-full bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-3xl overflow-hidden"
-            style={{ height: "271px" }}
-          >
+          <div className="flex flex-grow w-full bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-[30px] overflow-hidden">
             <div className="w-full p-6">
               <TbCircleNumber7 className="my-5" size={22} />
 
@@ -152,10 +131,7 @@ export const AboutOverview = () => {
         </div>
 
         <div className="flex w-full   ">
-          <div
-            className="flex w-full bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-3xl overflow-hidden"
-            style={{ height: "271px" }}
-          >
+          <div className="flex flex-grow w-full bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-[30px] overflow-hidden">
             <div className="w-full p-6">
               <TbCircleNumber8 className="my-5" size={22} />
               <h2 className="text-xl font-bold mb-3">Ongoing Support</h2>

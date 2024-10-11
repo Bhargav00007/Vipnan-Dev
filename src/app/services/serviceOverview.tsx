@@ -11,17 +11,17 @@ import {
 const serviceOverview = () => {
   return (
     <>
-      <div className="absolute overflow-hidden w-[300px] h-[300px] sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[300px] lg:w-[600px] lg:h-[400px] left-[0rem] top-[85rem] lg:left-[15rem] lg:top-[900px] md:left-[5rem] md:top-[800px] bg-custom-green blur-2xl z-[-1] opacity-50 rounded-full "></div>
-      <div className="absolute overflow-hidden w-[300px] h-[300px] sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[300px] lg:w-[600px] lg:h-[400px] left-[7rem] top-[105rem] lg:left-[55rem] lg:top-[1100px] md:left-[22rem] md:top-[1050px] bg-custom-green blur-2xl z-[-1] opacity-50 rounded-full "></div>
-      <div className="absolute w-[300px] h-[300px] sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[300px] lg:w-[600px] lg:h-[400px] left-[0rem] top-[130rem] lg:left-[0rem] lg:top-[1500px] md:left-[-10rem] md:top-[1400px] bg-custom-green blur-2xl z-[-1] opacity-50 rounded-full overflow-hidden"></div>
-      <div className="absolute w-[300px] h-[300px] lg:hidden  md:hidden left-[7rem] top-[155rem]  bg-custom-green blur-2xl z-[-1] opacity-50 rounded-full overflow-hidden"></div>
-      <div className="absolute w-[400px] h-[300px] sm:w-[300px] sm:h-[300px] md:w-[500px] md:h-[400px] lg:w-[600px] lg:h-[400px] left-[0rem] top-[200rem] lg:left-[55rem] lg:top-[2400px] md:left-[15rem] md:top-[2300px] bg-custom-green blur-2xl z-[-1] opacity-50 rounded-full overflow-hidden"></div>
+      <div className="absolute overflow-hidden w-[300px] h-[300px] sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[300px] lg:w-[600px] lg:h-[400px] left-[0rem] top-[85rem] lg:left-[15rem] lg:top-[900px] md:left-[5rem] md:top-[800px] bg-custom-green blur-3xl z-[-1] opacity-50 rounded-full "></div>
+      <div className="absolute overflow-hidden w-[80vw] h-[80vw] sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[300px] lg:w-[600px] lg:h-[400px] left-[7vw] top-[80vh] lg:left-[55rem] lg:top-[1100px] md:left-[22rem] md:top-[1050px] bg-custom-green blur-3xl z-[-1] opacity-50 rounded-full"></div>
+      <div className="absolute w-[300px] h-[300px] sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[300px] lg:w-[600px] lg:h-[400px] left-[0rem] top-[130rem] lg:left-[0rem] lg:top-[1500px] md:left-[-10rem] md:top-[1400px] bg-custom-green blur-3xl z-[-1] opacity-50 rounded-full overflow-hidden"></div>
+      <div className="absolute w-[300px] h-[300px] lg:hidden  md:hidden left-[7rem] top-[155rem]  bg-custom-green blur-3xl z-[-1] opacity-50 rounded-full overflow-hidden"></div>
+      <div className="absolute w-[40vw] h-[30vw] sm:w-[300px] sm:h-[300px] md:w-[500px] md:h-[400px] lg:w-[600px] lg:h-[400px] left-[0rem] top-[200rem] lg:left-[55rem] lg:top-[2400px] md:left-[15rem] md:top-[2300px] bg-custom-green blur-3xl z-[-1] opacity-50 rounded-full overflow-hidden"></div>
 
       <div className="flex flex-col md:flex-row justify-between grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 p-5 lg:p-20 md:p-20 mt-14 lg:mx-16 md:mx-10">
         {/* Section 1 */}
         <div className="flex">
-          <div className="flex-grow bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-3xl overflow-hidden h-auto">
-            <div className="w-full p-5 lg:p-14">
+          <div className="flex-grow bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-[50px] overflow-hidden h-auto">
+            <div className="w-full px-7 py-9 lg:py-[76px] lg:px-[45px]">
               <TbCircleNumber1 className="my-5 lg:mb-10 w-[22px] h-[22px] lg:w-[44px] lg:h-[44px]" />
               <h2 className="text-2xl lg:text-5xl font-bold mb-5">
                 Web Development
@@ -48,8 +48,8 @@ const serviceOverview = () => {
 
         {/* Section 2 */}
         <div className="flex">
-          <div className="flex-grow bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-3xl overflow-hidden h-auto">
-            <div className="w-full p-5 lg:p-14">
+          <div className="flex-grow bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-[50px] overflow-hidden h-auto">
+            <div className="w-full px-7 py-9 lg:py-[76px] lg:px-[45px]">
               <TbCircleNumber2 className="my-5 lg:mb-10 w-[22px] h-[22px] lg:w-[44px] lg:h-[44px]" />
               <h2 className="text-2xl lg:text-5xl font-bold mb-5">
                 Personal Branding
@@ -77,8 +77,8 @@ const serviceOverview = () => {
 
         {/* Section 3 */}
         <div className="flex">
-          <div className="flex-grow bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-3xl overflow-hidden h-auto">
-            <div className="w-full p-5 lg:p-14">
+          <div className="flex-grow bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-[50px] overflow-hidden h-auto">
+            <div className="w-full px-7 py-9 lg:py-[76px] lg:px-[45px]">
               <TbCircleNumber3 className="my-5 lg:mb-10 w-[22px] h-[22px] lg:w-[44px] lg:h-[44px]" />
               <h2 className="text-2xl lg:text-5xl font-bold mb-5">
                 Social Advertising
@@ -105,8 +105,8 @@ const serviceOverview = () => {
 
         {/* Section 4 */}
         <div className="flex">
-          <div className="flex-grow bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-3xl overflow-hidden h-auto">
-            <div className="w-full p-5 lg:p-14">
+          <div className="flex-grow bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-[50px] overflow-hidden h-auto">
+            <div className="w-full px-7 py-9 lg:py-[76px] lg:px-[45px]">
               <TbCircleNumber4 className="my-5 lg:mb-10 w-[22px] h-[22px] lg:w-[44px] lg:h-[44px]" />
               <h2 className="text-2xl lg:text-5xl font-bold mb-5">
                 Video/Graphics Editing
@@ -131,8 +131,8 @@ const serviceOverview = () => {
 
         {/* Section 5 */}
         <div className="flex">
-          <div className="flex-grow bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-3xl overflow-hidden h-auto">
-            <div className="w-full p-5 lg:p-14">
+          <div className="flex-grow bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-[50px] overflow-hidden h-auto">
+            <div className="w-full px-7 py-9 lg:py-[76px] lg:px-[45px]">
               <TbCircleNumber5 className="my-5 lg:mb-10 w-[22px] h-[22px] lg:w-[44px] lg:h-[44px]" />
               <h2 className="text-2xl lg:text-5xl font-bold mb-5">
                 Social Media Marketing
@@ -159,8 +159,8 @@ const serviceOverview = () => {
 
         {/* Section 6 */}
         <div className="flex">
-          <div className="flex-grow bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-3xl overflow-hidden h-auto">
-            <div className="w-full p-5 lg:p-14">
+          <div className="flex-grow bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-[50px] overflow-hidden h-auto">
+            <div className="w-full px-7 py-9 lg:py-[76px] lg:px-[45px]">
               <TbCircleNumber6 className="my-5 lg:mb-10 w-[22px] h-[22px] lg:w-[44px] lg:h-[44px]" />
               <h2 className="text-2xl lg:text-5xl font-bold mb-5">
                 Social Media Management
