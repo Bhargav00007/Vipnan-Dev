@@ -4,7 +4,7 @@
 
 body {
   @apply bg-black text-white;
-  font-family: "Poppins", sans-serif;
+  font-family: var("--dm_sans-font");
 }
 
 h1,
@@ -13,5 +13,5 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: var("--dm_sans-font");
 }

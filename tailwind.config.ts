@@ -22,8 +22,8 @@ const config: Config = {
         },
       },
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
-        dmSans: ["DM Sans", "sans-serif"],
+        poppins: ["var(--poppins-font)"],
+        dmSans: ["var(--dm_sans-font)"],
       },
       backgroundImage: {
         "custom-gradient":

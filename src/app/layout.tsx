@@ -1,21 +1,10 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import "./globals.css"; // Ensure this imports your global styles
 import Script from "next/script";
 import Head from "next/head";
 import Navbar from "./Components/Navbar";
 import { Footer } from "./Components/Footer";
-
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+import { dmSans, poppins } from "./font/font";
 
 export const metadata: Metadata = {
   title: "Vipnan",
@@ -46,7 +35,7 @@ export default function RootLayout({
         />
       </Head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${dmSans.variable} ${poppins.variable} antialiased font-dmSans`}
       >
         <Navbar />
         {children}
