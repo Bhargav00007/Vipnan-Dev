@@ -11,10 +11,10 @@ export const Services = () => {
         </h1>
       </div>
 
-      <div className="flex flex-wrap justify-items-start md:justify-center lg:justify-center  lg:grid grid-cols-3 mx-10 lg:mx-48 md:mx-50 gap-3  mt-8">
+      <div className="flex flex-wrap justify-items-center md:justify-center lg:justify-center  lg:grid grid-cols-3 md:grid-cols-3 mx-10 lg:mx-48 md:mx-50 gap-3  mt-8">
         {/* First */}
         <Link href="/services">
-          <div className="flex items-center  bg-transparent rounded-lg mt-8">
+          <div className="flex items-center   bg-transparent rounded-lg mt-5">
             <svg
               width="37"
               height="37"
@@ -46,9 +46,8 @@ export const Services = () => {
             </svg>
             <span className="text-lg mx-5 flex items-center justify-between">
               <span>Web Development</span>
-              <FaAngleRight className="grid lg:ml-[120px] " />
+              <FaAngleRight className="grid lg:ml-auto" />
             </span>
-            {/* <hr className="border-custom-green my-1" /> */}
           </div>
         </Link>
 
@@ -109,10 +108,8 @@ export const Services = () => {
               </defs>
             </svg>
             <span className="text-lg mx-5 flex items-center justify-between">
-              Personal Branding{" "}
-              <FaAngleRight className="inline lg:ml-[120px] " />
+              Personal Branding <FaAngleRight className="inline lg:ml-auto " />
             </span>
-            <hr className="border-custom-green my-1" />
           </div>
         </Link>
 
@@ -174,10 +171,8 @@ export const Services = () => {
             </svg>
 
             <span className="text-xl mx-5 flex items-center justify-between">
-              Social Advertising{" "}
-              <FaAngleRight className="inline lg:ml-[120px]" />
+              Social Advertising <FaAngleRight className="inline ml-auto  " />
             </span>
-            <hr className="bg-white my-1" />
           </div>
         </Link>
 
@@ -239,7 +234,7 @@ export const Services = () => {
             </svg>
 
             <span className="text-lg mx-2">
-              Web Development <FaAngleRight className="inline lg:ml-[120px]" />
+              Web Development <FaAngleRight className="inline lg:ml-auto" />
             </span>
             <hr className="border-custom-green my-1" />
           </div>
@@ -303,8 +298,7 @@ export const Services = () => {
             </svg>
 
             <span className="text-lg mx-5">
-              Personal Branding{" "}
-              <FaAngleRight className="inline lg:ml-[120px]" />
+              Personal Branding <FaAngleRight className="inline lg:ml-auto" />
             </span>
             <hr className="border-custom-green my-1" />
           </div>
@@ -368,8 +362,7 @@ export const Services = () => {
             </svg>
 
             <span className="text-xl mx-5">
-              Social Advertising{" "}
-              <FaAngleRight className="inline lg:ml-[120px]" />
+              Social Advertising <FaAngleRight className="inline lg:ml-auto" />
             </span>
           </div>
         </Link>

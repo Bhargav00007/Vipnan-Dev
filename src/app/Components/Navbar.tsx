@@ -14,7 +14,7 @@ const Navbar = () => {
   useEffect(() => {
     if (ibaseenuOpen) {
       // Add padding to the body when the navbar is open
-      document.body.style.paddingTop = "83.5px";
+      document.body.style.paddingTop = "83.7px";
     } else {
       // Remove padding when the navbar is closed
       document.body.style.paddingTop = "0";
@@ -30,7 +30,7 @@ const Navbar = () => {
     <nav className={`${ibaseenuOpen ? "fixed w-full top-0 z-50" : ""}`}>
       <div
         className={`dark:bg-gradient-to-b from-black to-navbar-green w-auto bg-black flex flex-wrap items-center justify-between mx-2.5 lg:mx-[119px] md:mx-20 p-4 lg:p-6 lg:mt-[40px] mt-2.5 border border-custom-green overflow-hidden ${
-          ibaseenuOpen ? "rounded-3xl" : "rounded-full"
+          ibaseenuOpen ? "rounded-[37px] " : "rounded-full bg-black"
         } bg-black`}
       >
         <Logo />
@@ -78,10 +78,10 @@ const Navbar = () => {
           } w-full md:flex md:w-auto md:order-1`}
           id="navbar-cta"
         >
-          <ul className="font-medium flex flex-col lg:ml-10 p-4 md:p-0 mt-4 border border-black rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent dark:bg-transparent md:dark:bg-transparent dark:border-black">
+          <ul className="font-medium flex flex-col lg:ml-10 p-4 md:p-0 mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:bg-transparent dark:bg-transparent md:dark:bg-transparent dark:border-black">
             <li>
               <Link href="/" passHref>
-                <span className="block py-2 px-3 md:p-0 dark:text-custom-white text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-regular-green md:dark:hover:text-regular-green dark:text-custom-white dark:hover:bg-gray-700 dark:hover:text-custom-white md:dark:hover:bg-transparent dark:border-gray-700">
+                <span className="block py-2 px-3 md:p-0 dark:text-custom-white text-black rounded hover:text-custom-green md:hover:bg-transparent md:hover:text-regular-green md:dark:hover:text-regular-green dark:text-custom-white dark:hover:bg-gray-700 dark:hover:text-custom-white md:dark:hover:bg-transparent dark:border-gray-700">
                   Home
                 </span>
               </Link>
@@ -109,7 +109,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link href="/contact" passHref>
-                <span className="block lg:hidden py-2 px-3 md:p-0 dark:text-custom-white text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-regular-green md:dark:hover:text-regular-green dark:text-custom-white dark:hover:bg-gray-700 dark:hover:text-custom-white md:dark:hover:bg-transparent dark:border-gray-700">
+                <span className="block lg:hidden md:hidden  py-2 px-3 md:p-0 dark:text-custom-white text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-regular-green md:dark:hover:text-regular-green dark:text-custom-white dark:hover:bg-gray-700 dark:hover:text-custom-white md:dark:hover:bg-transparent dark:border-gray-700">
                   Contact us
                 </span>
               </Link>
