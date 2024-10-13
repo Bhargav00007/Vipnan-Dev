@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { FaArrowCircleRight } from "react-icons/fa";
+import { FaArrowCircleRight, FaTimes, FaBars } from "react-icons/fa"; // Add FaTimes for the cross icon
 import { Logo } from "./ui/Logo";
 
 const Navbar = () => {
@@ -27,11 +27,13 @@ const Navbar = () => {
   }, [ibaseenuOpen]);
 
   return (
-    <nav className={`${ibaseenuOpen ? "fixed w-full top-0 z-50" : ""}`}>
+    <nav
+      className={`${ibaseenuOpen ? "fixed w-full top-0 z-50 bg-black" : ""}`}
+    >
       <div
-        className={`dark:bg-gradient-to-b from-black to-navbar-green w-auto bg-black flex flex-wrap items-center justify-between mx-2.5 lg:mx-[119px] md:mx-20 p-4 lg:p-6 lg:mt-[40px] mt-2.5 border border-custom-green overflow-hidden ${
-          ibaseenuOpen ? "rounded-[37px] " : "rounded-full bg-black"
-        } bg-black`}
+        className={`dark:bg-gradient-to-b from-black to-navbar-green w-auto flex flex-wrap items-center justify-between mx-2.5 lg:mx-[119px] md:mx-20 p-4 lg:p-6 lg:mt-[40px] mt-2.5 border border-custom-green overflow-hidden ${
+          ibaseenuOpen ? "rounded-[37px] bg-black" : "rounded-full bg-black"
+        }`}
       >
         <Logo />
 
@@ -54,21 +56,12 @@ const Navbar = () => {
             aria-expanded={ibaseenuOpen}
           >
             <span className="sr-only">Open main menu</span>
-            <svg
-              className="w-5 h-5"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 17 14"
-            >
-              <path
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M1 1h15M1 7h15M1 13h15"
-              />
-            </svg>
+            {/* Toggle between hamburger and cross icons */}
+            {ibaseenuOpen ? (
+              <FaTimes className="w-5 h-5" aria-hidden="true" /> // Cross icon
+            ) : (
+              <FaBars className="w-5 h-5" aria-hidden="true" /> // Hamburger icon
+            )}
           </button>
         </div>
 
@@ -109,7 +102,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link href="/contact" passHref>
-                <span className="block lg:hidden md:hidden  py-2 px-3 md:p-0 dark:text-custom-white text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-regular-green md:dark:hover:text-regular-green dark:text-custom-white dark:hover:bg-gray-700 dark:hover:text-custom-white md:dark:hover:bg-transparent dark:border-gray-700">
+                <span className="block lg:hidden md:hidden py-2 px-3 md:p-0 dark:text-custom-white text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-regular-green md:dark:hover:text-regular-green dark:text-custom-white dark:hover:bg-gray-700 dark:hover:text-custom-white md:dark:hover:bg-transparent dark:border-gray-700">
                   Contact us
                 </span>
               </Link>
