@@ -14,7 +14,7 @@ const Navbar = () => {
   useEffect(() => {
     if (ibaseenuOpen) {
       // Add padding to the body when the navbar is open
-      document.body.style.paddingTop = "83.5px"; // Adjust as needed for the scroll bar
+      document.body.style.paddingTop = "83.5px";
     } else {
       // Remove padding when the navbar is closed
       document.body.style.paddingTop = "0";

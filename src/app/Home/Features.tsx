@@ -13,7 +13,7 @@ export const Features = () => {
       </div>
 
       {/* Updated Grid Layout for Sections 1 and 2 */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-12 xl:mx-[120px] mx-4">
+      <div className="grid grid-cols-1 md:grid-cols-2  gap-4 mt-12 xl:mx-[120px] mx-4">
         {/* Section 1 */}
         <div className="flex border-2 border-custom-border text-white p-0 rounded-3xl  overflow-hidden lg:bg-black bg-opacity-75">
           <div className="xl:w-[55%] w-full px-[27px] py-[50px]">
