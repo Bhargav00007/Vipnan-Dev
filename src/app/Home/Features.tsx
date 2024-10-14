@@ -145,7 +145,7 @@ export const Features = () => {
         </div>
       </div>
 
-      <div className="absolute w-[300px] h-[300px] lg:hidden  md:hidden left-[4rem] top-[155rem]  bg-custom-green blur-3xl z-[-1] opacity-50 rounded-full overflow-hidden"></div>
+      <div className="absolute w-[300px] h-[300px] lg:hidden  md:hidden left-[3rem] top-[155rem]  bg-custom-green blur-3xl z-[-1] opacity-50 rounded-full overflow-hidden"></div>
     </>
   );
 };

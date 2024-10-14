@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import "./globals.css"; // Ensure this imports your global styles
+import NextTopLoader from "nextjs-toploader";
+import "./globals.css";
 import Script from "next/script";
 import Head from "next/head";
 import Navbar from "./Components/Navbar";
@@ -37,6 +38,7 @@ export default function RootLayout({
       <body
         className={`${dmSans.variable} ${poppins.variable} antialiased font-dmSans`}
       >
+        <NextTopLoader color="#57E8BA" showSpinner={false} />
         <Navbar />
         {children}
         <Footer />
