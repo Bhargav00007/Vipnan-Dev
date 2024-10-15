@@ -81,7 +81,7 @@ export const Footer = () => {
         </ul>
       </div>
 
-      <div className="mt-10 flex justify-between items-center mx-0 lg:mx-[165px]  mb-4 text-base text-custom-white md:mb-0 border-t border-slate-200 pt-4">
+      <div className="mt-10 flex justify-between items-center mx-0 lg:mx-[165px]  mb-4 lg:text-base text-sm text-custom-white md:mb-0 border-t border-slate-200 pt-4">
         <p className="text-base text-custom-white">
           © 2024&nbsp;
           <Link href="#" target="_blank" rel="noreferrer">
@@ -89,7 +89,7 @@ export const Footer = () => {
           </Link>
         </p>
 
-        <p className="text-base text-custom-white ">
+        <p className="lg:text-base text-sm text-custom-white ">
           <Link
             href="/terms"
             className="hover:text-regular-green lg:px-10 px-5"
@@ -97,7 +97,7 @@ export const Footer = () => {
             Terms
           </Link>
 
-          <Link href="/privacy" className="hover:text-regular-green mr-5 ">
+          <Link href="/privacy" className="hover:text-regular-green mr-5  ">
             Privacy Policy
           </Link>
         </p>

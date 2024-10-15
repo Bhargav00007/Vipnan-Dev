@@ -1,11 +1,13 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { FaArrowCircleRight, FaTimes, FaBars } from "react-icons/fa"; // Add FaTimes for the cross icon
+import { FaArrowCircleRight, FaTimes, FaBars } from "react-icons/fa";
 import { Logo } from "./ui/Logo";
+import { usePathname } from "next/navigation"; // Import usePathname instead of useRouter
 
 const Navbar = () => {
   const [ibaseenuOpen, setIbaseenuOpen] = useState(false);
+  const pathname = usePathname(); // Use usePathname to get the current path
 
   const toggleMenu = () => {
     setIbaseenuOpen(!ibaseenuOpen);
@@ -13,26 +15,26 @@ const Navbar = () => {
 
   useEffect(() => {
     if (ibaseenuOpen) {
-      // Add padding to the body when the navbar is open
       document.body.style.paddingTop = "83.7px";
     } else {
-      // Remove padding when the navbar is closed
       document.body.style.paddingTop = "0";
     }
 
     return () => {
-      // Cleanup: reset styles on unmount
       document.body.style.paddingTop = "0";
     };
   }, [ibaseenuOpen]);
+
+  // Helper function to check if the current path matches
+  const isActive = (path: string) => pathname === path;
 
   return (
     <nav
       className={`${ibaseenuOpen ? "fixed w-full top-0 z-50 bg-black" : ""}`}
     >
       <div
-        className={`dark:bg-gradient-to-b from-black to-navbar-green w-auto flex flex-wrap items-center justify-between mx-2.5 lg:mx-[119px] md:mx-20 p-4 lg:p-6 lg:mt-[40px] mt-2.5 border border-custom-green overflow-hidden ${
-          ibaseenuOpen ? "rounded-[37px] " : "rounded-full "
+        className={`bg-gradient-to-b from-black to-navbar-green w-auto flex flex-wrap items-center justify-between mx-2.5 lg:mx-[119px] md:mx-20 p-4 lg:p-6 lg:mt-[40px] mt-2.5 border border-custom-green overflow-hidden ${
+          ibaseenuOpen ? "rounded-[37px]" : "rounded-full"
         }`}
       >
         <Logo />
@@ -56,7 +58,6 @@ const Navbar = () => {
             aria-expanded={ibaseenuOpen}
           >
             <span className="sr-only">Open main menu</span>
-            {/* Toggle between hamburger and cross icons */}
             {ibaseenuOpen ? (
               <FaTimes className="w-5 h-5" aria-hidden="true" /> // Cross icon
             ) : (
@@ -74,35 +75,65 @@ const Navbar = () => {
           <ul className="font-medium text-xl lg:text-base md:text-base sm:text-base flex flex-col lg:ml-10 p-4 md:p-0 mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:bg-transparent dark:bg-transparent md:dark:bg-transparent dark:border-black">
             <li>
               <Link href="/" passHref>
-                <span className="block py-2  md:p-0 dark:text-custom-white text-black rounded hover:text-custom-green md:hover:bg-transparent md:hover:text-regular-green md:dark:hover:text-regular-green dark:text-custom-white dark:hover:bg-gray-700 dark:hover:text-custom-white md:dark:hover:bg-transparent dark:border-gray-700">
+                <span
+                  className={`block py-2 md:p-0 rounded ${
+                    isActive("/")
+                      ? "text-regular-green"
+                      : "dark:text-custom-white"
+                  } hover:text-regular-green md:hover:bg-transparent`}
+                >
                   Home
                 </span>
               </Link>
             </li>
             <li>
               <Link href="/services" passHref>
-                <span className="block py-2  md:p-0 dark:text-custom-white text-black rounded hover:bg-custom-green md:hover:bg-transparent md:hover:text-regular-green md:dark:hover:text-regular-green dark:text-custom-white dark:hover:bg-gray-700 dark:hover:text-custom-white md:dark:hover:bg-transparent dark:border-gray-700">
+                <span
+                  className={`block py-2 md:p-0 rounded ${
+                    isActive("/services")
+                      ? "text-regular-green"
+                      : "dark:text-custom-white"
+                  } hover:text-regular-green md:hover:bg-transparent`}
+                >
                   Services
                 </span>
               </Link>
             </li>
             <li>
               <Link href="/clients" passHref>
-                <span className="block py-2  md:p-0 dark:text-custom-white text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-regular-green md:dark:hover:text-regular-green dark:text-custom-white dark:hover:bg-gray-700 dark:hover:text-custom-white md:dark:hover:bg-transparent dark:border-gray-700">
+                <span
+                  className={`block py-2 md:p-0 rounded ${
+                    isActive("/clients")
+                      ? "text-regular-green"
+                      : "dark:text-custom-white"
+                  } hover:text-regular-green md:hover:bg-transparent`}
+                >
                   Clients
                 </span>
               </Link>
             </li>
             <li>
               <Link href="/about" passHref>
-                <span className="block py-2  md:p-0 dark:text-custom-white text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-regular-green md:dark:hover:text-regular-green dark:text-custom-white dark:hover:bg-gray-700 dark:hover:text-custom-white md:dark:hover:bg-transparent dark:border-gray-700">
+                <span
+                  className={`block py-2 md:p-0 rounded ${
+                    isActive("/about")
+                      ? "text-regular-green"
+                      : "dark:text-custom-white"
+                  } hover:text-regular-green md:hover:bg-transparent`}
+                >
                   About
                 </span>
               </Link>
             </li>
             <li>
               <Link href="/contact" passHref>
-                <span className="block lg:hidden md:hidden py-2  md:p-0 dark:text-custom-white text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-regular-green md:dark:hover:text-regular-green dark:text-custom-white dark:hover:bg-gray-700 dark:hover:text-custom-white md:dark:hover:bg-transparent dark:border-gray-700">
+                <span
+                  className={`block lg:hidden md:hidden py-2 md:p-0 rounded ${
+                    isActive("/contact")
+                      ? "text-regular-green"
+                      : "dark:text-custom-white"
+                  } hover:text-regular-green md:hover:bg-transparent`}
+                >
                   Contact us
                 </span>
               </Link>
