@@ -80,11 +80,11 @@ const AboutCarousel = () => {
           <div className="lg:w-[864px] lg:h-[436px] md:w-[600px] md:h-[300px] flex-shrink-0 px-2 text-center">
             <div className="p-16 bg-black bg-opacity-75 border-2 border-custom-border rounded-3xl shadow-lg w-full h-full flex flex-col items-center justify-center">
               {/* Slide Text */}
-              <p className="text-lg md:text-2xl lg:text-3xl lg:leading-normal mb-4">
+              <p className="text-lg md:text-lg lg:text-3xl lg:leading-normal mb-4">
                 {slides[currentIndex].text}
               </p>
               {/* Name and Title */}
-              <p className="text-base md:text-lg lg:text-xl text--white mt-5">
+              <p className="text-base md:text-base lg:text-xl text--white mt-5">
                 {slides[currentIndex].name} <br /> {slides[currentIndex].title}
               </p>
             </div>
@@ -109,13 +109,13 @@ const AboutCarousel = () => {
         {/* Buttons */}
         <button
           onClick={handlePrev}
-          className="hidden md:flex absolute top-1/2 ml-20  transform -translate-y-1/2 bg-transparent border-2 border-blue-300 rounded-full p-5 shadow"
+          className="hidden md:flex absolute top-1/2 lg:ml-20 md:ml-5  transform -translate-y-1/2 bg-transparent border-2 border-blue-300 rounded-full lg:p-5 md:p-3 shadow"
         >
           <IoIosArrowBack />
         </button>
         <button
           onClick={handleNext}
-          className="hidden md:flex absolute top-1/2 right-20 transform -translate-y-1/2 bg-transparent border-2 border-blue-300 rounded-full p-5 shadow"
+          className="hidden md:flex absolute top-1/2 lg:right-20 md:right-5 transform -translate-y-1/2 bg-transparent border-2 border-blue-300 rounded-full lg:p-5 md:p-3 shadow"
         >
           <IoIosArrowForward />
         </button>
