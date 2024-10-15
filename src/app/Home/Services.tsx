@@ -44,7 +44,7 @@ export const Services = () => {
                 strokeLinejoin="round"
               />
             </svg>
-            <span className="text-lg mx-5 flex items-center justify-between">
+            <span className="  lg:text-lg text-base mx-5 flex items-center justify-between">
               <span>Web Development</span>
               <FaAngleRight className="grid lg:ml-auto" />
             </span>
@@ -107,7 +107,7 @@ export const Services = () => {
                 />
               </defs>
             </svg>
-            <span className="text-lg mx-5 flex items-center justify-between">
+            <span className="  lg:text-lg md:text-base text-base mx-5 flex items-center justify-between">
               Personal Branding <FaAngleRight className="inline lg:ml-auto " />
             </span>
           </div>
@@ -170,7 +170,7 @@ export const Services = () => {
               </defs>
             </svg>
 
-            <span className="text-xl mx-5 flex items-center justify-between">
+            <span className="  lg:text-lg text-base mx-5 flex items-center justify-between">
               Social Advertising <FaAngleRight className="inline ml-auto  " />
             </span>
           </div>
@@ -233,10 +233,10 @@ export const Services = () => {
               </defs>
             </svg>
 
-            <span className="text-lg mx-2">
-              Web Development <FaAngleRight className="inline lg:ml-auto" />
+            <span className="  lg:text-lg text-base mx-5 flex items-center justify-between">
+              Video/Graphics Editing{" "}
+              <FaAngleRight className="inline lg:ml-auto" />
             </span>
-            <hr className="border-custom-green my-1" />
           </div>
         </Link>
 
@@ -297,10 +297,10 @@ export const Services = () => {
               </defs>
             </svg>
 
-            <span className="text-lg mx-5">
-              Personal Branding <FaAngleRight className="inline lg:ml-auto" />
+            <span className="  lg:text-lg text-base mx-5 flex items-center justify-between">
+              Social Media Marketing
+              <FaAngleRight className="inline lg:ml-auto" />
             </span>
-            <hr className="border-custom-green my-1" />
           </div>
         </Link>
 
@@ -361,12 +361,12 @@ export const Services = () => {
               </defs>
             </svg>
 
-            <span className="text-xl mx-5">
-              Social Advertising <FaAngleRight className="inline lg:ml-auto" />
+            <span className="  lg:text-lg text-base mx-5 flex items-center justify-between">
+              Social Media Management
+              <FaAngleRight className="inline lg:ml-auto" />
             </span>
           </div>
         </Link>
-        <hr className="bg-white my-1" />
       </div>
     </>
   );

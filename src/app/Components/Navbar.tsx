@@ -3,11 +3,11 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { FaArrowCircleRight, FaTimes, FaBars } from "react-icons/fa";
 import { Logo } from "./ui/Logo";
-import { usePathname } from "next/navigation"; // Import usePathname instead of useRouter
+import { usePathname } from "next/navigation";
 
 const Navbar = () => {
   const [ibaseenuOpen, setIbaseenuOpen] = useState(false);
-  const pathname = usePathname(); // Use usePathname to get the current path
+  const pathname = usePathname();
 
   const toggleMenu = () => {
     setIbaseenuOpen(!ibaseenuOpen);
