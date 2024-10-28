@@ -1,34 +1,46 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Loading from "../Components/ui/Loading";
 
 export default function Showreel() {
   const [isLoading, setIsLoading] = useState(true);
+  const [videoLoaded, setVideoLoaded] = useState(false);
+
+  // Timeout to prevent infinite spinner if video load fails
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      if (!videoLoaded) {
+        setIsLoading(false); // Hide spinner even if video doesn't load
+      }
+    }, 10000); // 10 seconds timeout
+
+    return () => clearTimeout(timeout);
+  }, [videoLoaded]);
 
   const handleLoadedData = () => {
     setIsLoading(false);
+    setVideoLoaded(true); // Mark video as successfully loaded
   };
 
   return (
     <div className="relative">
       {isLoading && (
         <div className="absolute inset-0 flex items-center justify-center bg-gray-100 rounded-lg mt-20">
-          {/* Loading spinner or any loading UI */}
           <Loading />
         </div>
       )}
 
-      <video
-        autoPlay
-        playsInline
-        className={`h-auto rounded-3xl lg:px-36 lg:py-12 md:px-10 md:py-14 px-5 pt-20 ${
-          isLoading ? "hidden" : "block"
-        }`}
-        controls={!isLoading} // Show controls only when video is loaded
-        controlsList="nodownload"
-        src={"/Assets/showreel-demo.mp4"}
-        onLoadedData={handleLoadedData}
-      />
+      {!isLoading && (
+        <video
+          autoPlay
+          playsInline
+          className="h-auto rounded-3xl lg:px-36 lg:py-8  md:px-10 md:py-14 px-5"
+          controls
+          controlsList="nodownload"
+          src={"/Assets/Showreel.mp4"}
+          onLoadedData={handleLoadedData}
+        />
+      )}
     </div>
   );
 }
