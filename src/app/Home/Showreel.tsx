@@ -34,7 +34,7 @@ export default function Showreel() {
         <video
           autoPlay
           playsInline
-          className="h-auto rounded-3xl lg:px-36 lg:py-8  md:px-10 md:py-14 px-5"
+          className="h-auto rounded-3xl lg:px-36 lg:py-8 lg:mt-0 md:px-10 md:py-14 px-5 mt-20"
           controls
           controlsList="nodownload"
           src={"/Assets/Showreel.mp4"}
