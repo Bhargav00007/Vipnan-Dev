@@ -37,7 +37,9 @@ const Navbar = () => {
           ibaseenuOpen ? "rounded-[37px]" : "rounded-full"
         }`}
       >
-        <Logo />
+        <Link href="/">
+          <Logo />
+        </Link>
 
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse border-white-2 rounded-3xl">
           <Link href="/contact" passHref>

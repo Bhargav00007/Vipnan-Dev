@@ -3,7 +3,7 @@ import React from "react";
 
 export const Footer = () => {
   return (
-    <footer className="w-full flex-grow p-8 bg-custom-green  mt-40">
+    <footer className="w-full flex-grow p-8 bg-custom-green  mt-40 font-poppins">
       <div className="mb-10 lg:mx-[165px] flex flex-col md:flex-row items-start md:items-center justify-start md:justify-between text-left md:text-center ">
         <svg
           className="  mr-3"
@@ -31,10 +31,8 @@ export const Footer = () => {
           </defs>
         </svg>
 
-        <div className=" hidden md:block text-white lg:mr-auto ">
-          <h1 className="text-2xl leading-tight font-poppins font-bold">
-            Vipnan
-          </h1>
+        <div className=" hidden md:block text-white lg:mr-auto font-poppins ">
+          <p className="text-2xl   font-bold ">Vipnan</p>
         </div>
 
         <ul className="flex flex-col md:flex-row items-start md:items-center gap-y-3 gap-x-8 mt-5 md:mt-0  md:mx-5 ">

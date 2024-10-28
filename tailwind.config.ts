@@ -17,6 +17,8 @@ const config: Config = {
         "green-glow": "0 4px 6px rgba(87, 232, 186, 0.9)", // Green shadow
         "custom-border": "rgba(160, 143, 163, 0.2)",
         "custom-white": "#F5FFFC",
+        "custom-footer-gradient":
+          "radial-gradient(ellipse at center, custom-green 0%, black 100%)",
         black: {
           DEFAULT: "#070B0A", // Black color
         },

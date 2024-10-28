@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { FaArrowCircleRight } from "react-icons/fa";
 
@@ -24,14 +25,15 @@ export const Features = () => {
               monthly, quarterly, or yearly while our expert team takes your
               brand to the next level.
             </p>
-            <div className="text-white py-4">
-              <button
+            <div className="text-white py-10">
+              <Link
+                href="/about"
                 type="button"
                 className="text-black  hover:text-white  bg-regular-green hover:bg-black transition-colors duration-300  text-base px-7 py-3 text-center dark:bg-regular-green   border border-custom-border rounded-3xl shadow-xl font-bold"
               >
                 Learn More
                 <FaArrowCircleRight className="inline ml-2 mb-1" />
-              </button>
+              </Link>
             </div>
           </div>
           <div className="w-[45%] hidden lg:block">
@@ -52,14 +54,15 @@ export const Features = () => {
               At Vipnan, we deliver innovative solutions that ensure your brand
               remains bold, cohesive, and unforgettable.
             </p>
-            <div className="text-white py-4">
-              <button
+            <div className="text-white py-10">
+              <Link
+                href="/about"
                 type="button"
                 className="text-black  hover:text-white  bg-regular-green hover:bg-black transition-colors duration-300  text-base px-7 py-3 text-center dark:bg-regular-green dark:hover:bg-black dark:focus:ring-black border border-custom-border rounded-3xl shadow-xl font-bold"
               >
                 Learn More
                 <FaArrowCircleRight className="inline ml-2 mb-1" />
-              </button>
+              </Link>
             </div>
           </div>
           <div className="w-[45%] hidden lg:block">
@@ -92,14 +95,15 @@ export const Features = () => {
                 </p>
 
                 {/* Hide this button on mobile */}
-                <div className="hidden lg:block text-white py-4">
-                  <button
+                <div className="hidden lg:block text-white py-10">
+                  <Link
+                    href="/about"
                     type="button"
                     className="text-black  hover:text-white  bg-regular-green hover:bg-black transition-colors duration-300  text-base px-7 py-3 text-center dark:bg-regular-green dark:hover:bg-black dark:focus:ring-black border border-custom-border rounded-3xl shadow-xl font-bold"
                   >
                     Learn More
                     <FaArrowCircleRight className="inline ml-2 mb-1" />
-                  </button>
+                  </Link>
                 </div>
               </div>
 

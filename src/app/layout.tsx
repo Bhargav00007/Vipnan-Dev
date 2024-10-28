@@ -8,8 +8,11 @@ import { Footer } from "./Components/Footer";
 import { dmSans, poppins } from "./font/font";
 
 export const metadata: Metadata = {
-  title: "Vipnan",
-  description: "Awesome website",
+  title: {
+    default: "Vipnan",
+    template: "%s - Vipnan",
+  },
+  description: "Where Strategy meets action.",
 };
 
 export default function RootLayout({
