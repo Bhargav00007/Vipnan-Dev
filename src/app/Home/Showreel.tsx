@@ -13,7 +13,7 @@ export default function Showreel() {
       if (!videoLoaded) {
         setIsLoading(false); // Hide spinner even if video doesn't load
       }
-    }, 10000); // 10 seconds timeout
+    }, 1000); // 10 seconds timeout
 
     return () => clearTimeout(timeout);
   }, [videoLoaded]);

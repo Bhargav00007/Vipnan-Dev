@@ -1,10 +1,10 @@
 export default function Loading() {
   return (
     <div>
-      <div className="flex justify-center items-center h-screen">
+      <div className="flex justify-center items-center h-screen ">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="h-10 w-auto text-blue-300"
+          className="h-16 w-auto  text-regular-green"
           viewBox="0 0 24 24"
         >
           <g stroke="currentColor">
