@@ -1,10 +1,11 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Loading from "../Components/ui/Loading";
 
 export default function Showreel() {
   const [isLoading, setIsLoading] = useState(true);
   const [videoLoaded, setVideoLoaded] = useState(false);
+  const videoRef = useRef(null); // To keep the video reference
 
   // Timeout to prevent infinite spinner if video load fails
   useEffect(() => {
@@ -32,6 +33,7 @@ export default function Showreel() {
 
       {!isLoading && (
         <video
+          ref={videoRef} // Reference to video element
           autoPlay
           playsInline
           className="h-auto rounded-3xl lg:px-36 lg:py-8 lg:mt-0 md:px-10 md:py-14 px-5 mt-20"

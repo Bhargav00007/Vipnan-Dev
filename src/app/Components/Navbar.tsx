@@ -74,7 +74,7 @@ const Navbar = () => {
           } w-full md:flex md:w-auto md:order-1`}
           id="navbar-cta"
         >
-          <ul className="font-medium text-xl lg:text-base md:text-base sm:text-base flex flex-col lg:ml-10 p-0 md:p-0 mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:bg-transparent dark:bg-transparent md:dark:bg-transparent dark:border-black">
+          <ul className="font-medium text-xl lg:text-base md:text-base sm:text-base flex flex-col lg:ml-10 p-0 md:p-0 mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:bg-transparent bg-transparent md:bg-transparent border-black">
             <li>
               <Link href="/" passHref>
                 <span

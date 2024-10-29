@@ -38,8 +38,8 @@ export const Features = () => {
           </div>
           <div className="w-[45%] hidden lg:block">
             <img
-              src="https://via.placeholder.com/150"
-              alt="Placeholder"
+              src="/Assets/vipnan-logo.png"
+              alt=" "
               className="w-full h-full object-cover rounded-tr-3xl rounded-br-3xl"
             />
           </div>
@@ -67,7 +67,7 @@ export const Features = () => {
           </div>
           <div className="w-[45%] hidden lg:block">
             <img
-              src="https://via.placeholder.com/150"
+              src="/Assets/second-feature.png"
               alt="Placeholder"
               className="w-full h-full object-cover rounded-tr-3xl rounded-br-3xl"
             />
@@ -94,7 +94,6 @@ export const Features = () => {
                   success.
                 </p>
 
-                {/* Hide this button on mobile */}
                 <div className="hidden lg:block text-white py-10">
                   <Link
                     href="/about"
@@ -110,17 +109,17 @@ export const Features = () => {
               {/* Stats Section */}
               <div className="w-full lg:w-[37%] flex flex-col justify-center">
                 <div className="flex items-baseline py-5">
-                  <p className="text-3xl font-bold">900+</p>
+                  <p className="text-3xl font-bold">100+</p>
                   <p className="ml-2">Successful Projects</p>
                 </div>
                 <hr className="border-custom-border my-1" />
                 <div className="flex items-baseline py-5">
-                  <p className="text-3xl font-bold">600+</p>
-                  <p className="ml-2">Years In Business</p>
+                  <p className="text-3xl font-bold">10+</p>
+                  <p className="ml-2">countries</p>
                 </div>
                 <hr className="border-custom-border my-1" />
                 <div className="flex items-baseline py-5">
-                  <p className="text-3xl font-bold">300+</p>
+                  <p className="text-3xl font-bold">50+</p>
                   <p className="ml-2">Happy Clients</p>
                 </div>
 
@@ -141,8 +140,8 @@ export const Features = () => {
           {/* Image for desktop screens */}
           <div className="w-[45%] hidden lg:block">
             <img
-              src="https://via.placeholder.com/75"
-              alt="Placeholder"
+              src="/Assets/third-feature.png"
+              alt=" "
               className="w-full h-full object-cover rounded-tr-3xl rounded-br-3xl"
             />
           </div>
