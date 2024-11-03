@@ -80,7 +80,7 @@ export const Footer = () => {
       </div>
 
       <div className="mt-10 flex justify-between items-center mx-0 lg:mx-[165px]  mb-4 lg:text-base text-sm text-custom-white md:mb-0 border-t border-slate-200 pt-4">
-        <p className="text-base text-custom-white">
+        <p className="text-sm text-custom-white">
           © 2024&nbsp;
           <Link href="#" target="_blank" rel="noreferrer">
             Vipnan
