@@ -68,7 +68,7 @@ export const Features = () => {
           <div className="w-[45%] hidden lg:block">
             <img
               src="/Assets/second-feature.png"
-              alt="Placeholder"
+              alt=""
               className="w-full h-full object-cover rounded-tr-3xl rounded-br-3xl"
             />
           </div>
@@ -115,7 +115,7 @@ export const Features = () => {
                 <hr className="border-custom-border my-1" />
                 <div className="flex items-baseline py-5">
                   <p className="text-3xl font-bold">10+</p>
-                  <p className="ml-2">countries</p>
+                  <p className="ml-2">Countries</p>
                 </div>
                 <hr className="border-custom-border my-1" />
                 <div className="flex items-baseline py-5">
@@ -125,13 +125,15 @@ export const Features = () => {
 
                 {/* Button for mobile screens only */}
                 <div className="block lg:hidden text-white py-4">
-                  <button
-                    type="button"
-                    className="text-black  hover:text-white  bg-regular-green hover:bg-black hover:bg-custom-green transition-colors duration-300 focus:ring-4 focus:outline-none focus:ring-white-300 text-base px-7 py-3 text-center dark:bg-regular-green dark:hover:bg-black dark:focus:ring-black border border-custom-border rounded-3xl shadow-xl font-bold"
-                  >
-                    Learn More
-                    <FaArrowCircleRight className="inline ml-2 mb-1" />
-                  </button>
+                  <Link href="/about">
+                    <button
+                      type="button"
+                      className="text-black  hover:text-white  bg-regular-green hover:bg-black hover:bg-custom-green transition-colors duration-300  text-base px-7 py-3 text-center dark:bg-regular-green dark:hover:bg-black  border border-custom-border rounded-3xl shadow-xl font-bold"
+                    >
+                      Learn More
+                      <FaArrowCircleRight className="inline ml-2 mb-1" />
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>

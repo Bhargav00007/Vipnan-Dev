@@ -19,7 +19,7 @@ export const Overview = () => {
 
       <div className="absolute  w-[40vw] h-[30vw] sm:w-[300px] sm:h-[300px] md:w-[500px] md:h-[400px] lg:w-[600px] lg:h-[400px] left-[0rem] top-[200rem] lg:left-[55rem] lg:top-[2400px] md:left-[15rem] md:top-[2300px] bg-custom-green blur-3xl z-[-1] opacity-50 rounded-full overflow-hidden"></div>
 
-      <div className="flex flex-col md:flex-row  justify-between  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mx-[30px] lg:mx-[120px]">
+      <div className="flex flex-col md:flex-row  justify-between  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mx-[30px] lg:mx-[120px] mt-10">
         {/* One */}
         <div className="flex  ">
           <div className="flex flex-grow bg-black bg-opacity-75 border-2 border-custom-border text-white m-5 rounded-[30px] overflow-hidden">

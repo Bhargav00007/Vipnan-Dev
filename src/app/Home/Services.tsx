@@ -14,7 +14,7 @@ export const Services = () => {
       <div className="flex flex-wrap justify-items-center md:justify-center lg:justify-center  lg:grid grid-cols-3 md:grid-cols-3 mx-10 lg:mx-48 md:mx-50 gap-3  mt-8">
         {/* First */}
         <Link href="/services">
-          <div className="flex items-center   bg-transparent rounded-lg mt-5">
+          <div className="flex items-center   bg-transparent rounded-lg mt-5 hover:text-regular-green">
             <svg
               width="37"
               height="37"
@@ -53,7 +53,7 @@ export const Services = () => {
 
         {/* Second */}
         <Link href="/services">
-          <div className="flex items-center bg-transparent  rounded-lg mt-5 ">
+          <div className="flex items-center bg-transparent  rounded-lg mt-5  hover:text-regular-green">
             <svg
               width="37"
               height="37"
@@ -115,7 +115,7 @@ export const Services = () => {
 
         {/* Third */}
         <Link href="/services">
-          <div className="flex items-center  bg-transparent  rounded-lg mt-5">
+          <div className="flex items-center  bg-transparent  rounded-lg mt-5 hover:text-regular-green">
             <svg
               width="37"
               height="37"
@@ -178,7 +178,7 @@ export const Services = () => {
 
         {/* Fourth */}
         <Link href="/services">
-          <div className="flex items-center bg-transparent  rounded-lg mt-5">
+          <div className="flex items-center bg-transparent  rounded-lg mt-5 hover:text-regular-green">
             <svg
               width="37"
               height="37"
@@ -242,7 +242,7 @@ export const Services = () => {
 
         {/* Fifth */}
         <Link href="/services">
-          <div className="flex items-center  bg-transparent  rounded-lg mt-5">
+          <div className="flex items-center  bg-transparent  rounded-lg mt-5 hover:text-regular-green">
             <svg
               width="37"
               height="37"
@@ -306,7 +306,7 @@ export const Services = () => {
 
         {/* Sixth */}
         <Link href="/services">
-          <div className="flex items-center bg-transparent rounded-lg mt-5">
+          <div className="flex items-center bg-transparent rounded-lg mt-5 hover:text-regular-green">
             <svg
               width="37"
               height="37"
